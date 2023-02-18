@@ -1,7 +1,7 @@
-import { error } from '@sveltejs/kit';
- 
-/** @type {import('./$types').PageServerLoad} */
+import {readFileSync} from 'fs';
+
 export async function load() {
-  
-  throw error(404, 'Not found');
+    const raw = readFileSync('static/infinite-cat-supply.json', "utf-8");
+    const data = JSON.parse(raw);
+    return data[Math.floor(Math.random()*data.length)];
 }

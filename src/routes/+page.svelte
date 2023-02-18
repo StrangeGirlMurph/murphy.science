@@ -1,6 +1,9 @@
 <svelte:head>
 	<title>Murphy</title>
-	<meta name="description" content="Landing page." />
+	<meta
+		name="description"
+		content="Hey, I am Murphy! This is my homepage. Take a look. I hid some easter eggs :)"
+	/>
 </svelte:head>
 
 <div class="h-full flex flex-col justify-center">
