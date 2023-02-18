@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Murphy</title>
-	<meta name="description" content="Langing page." />
+	<meta name="description" content="Landing page." />
 </svelte:head>
 
 <div class="h-full flex flex-col justify-center">

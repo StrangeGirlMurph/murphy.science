@@ -2,14 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+        <link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Error</title>
+		<title>Big Error %sveltekit.status% | Murphy</title>
 	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
-            <h1>Error %sveltekit.status%</h1>
-            <p>%sveltekit.error%</p>
-        </div>
+	<body>
+		<h1>Error %sveltekit.status% - %sveltekit.error.message%</h1>
+		<p>Something seriously broke :( Get back to the <a href="https://murphy-in.space">homepage</a>.</p>
+
 	</body>
 </html>
