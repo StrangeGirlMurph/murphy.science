@@ -1,0 +1,47 @@
+<script>
+	import Links from "../../components/Links.svelte";
+</script>
+
+<svelte:head>
+    <title>Work | Murphy</title>
+    <meta name="description" content="Overview of my work." />
+</svelte:head>
+
+<div class="heading">
+    <h1 class="title md:before:content-['🫐'] md:after:content-['🖥️']">
+        Work
+    </h1>
+    <h2 class="subtitle">
+        An overview of my rather serious work.
+    </h2>
+</div>
+
+<h1>
+    Introduction to Fractals and Holomorphic Dynamics
+</h1>
+<section>
+    <p>
+        An article I wrote for my university course "Scientific Computing in Mathematica". It is an introduction into fractal geometry and holomorphic dynamics being the mathematical foundation for some of the most well known fractals which I also cover. I created all the visuals myself in Mathematica 13. You can run and edit them yourself by downloading the source code from below. I wrote it in my second cs semester but to read and understand it only a bit of mathematical notation is required to understand it. It's highly influenced by <a href="https://www.youtube.com/@3blue1brown" class="link">3Blue1Brown</a>s incredible videos on the topic! My personal highlight of the article is the section covering and showing the bifurcation diagram of the logistic map hiding in the Mandelbrot set plotted in three dimensions. Don't worry these terms don't have to mean anything to you right now. Just start reading and dive into the wonderful, beautiful, fascinating and weird world of fractal geometry!
+    </p>
+    <Links links={[{ name: `Introduction to Fractals and Holomorphic Dynamics | Article (.pdf)`, type: `pdf`, href: `/work/Introduction_to_Fractals_and_Holomorphic_Dynamics.pdf` }, { name: `Mathematica 13 | Source Code (.nb)`, href: `/work/Introduction_to_Fractals_and_Holomorphic_Dynamics.nb`, type: "file" }]} />
+</section>
+
+<h1>
+    Facial Landmark Detection
+</h1>
+<section>
+    <p>
+        A project on facial landmark detection on facecam input I did for my university course "Deep Learning". Even though the article was written together with two others I did all the coding. I used <a href="https://www.tensorflow.org/" class="link">TensorFlow</a> and a <a class="link" href="https://en.wikipedia.org/wiki/Convolutional_neural_network">convolutional neural network</a> with a dataset from <a href="https://www.kaggle.com/" class="link">Kaggle</a>. The project was my first experience with the development of real world machine learning applications. I had fun optimizing some custom masked loss functions but by far the biggest and most time consuming part was dealing with the data and building the "infrastructure"...
+    </p>
+    <Links links={[{ name: `Facial Landmark Detection | Article (.pdf)`, type: `pdf`, href: `/work/Facial_Landmark_Detection.pdf` }, { name: `Facial-Landmark-Detection | Repository`, type: `github`, href: `https://github.com/StrangeGirlMurph/Facial-Landmark-Detection` }]} />
+</section>
+
+<h1>
+    Jambo Discord Bot
+</h1>
+<section>
+    <p>
+        A Discord bot to manage a whole game jam/hackathon server from a fully functional poll system to managing color roles. I am the owner of a Discord server called Cowoding Jams where we host monthly coding jams. Because organizing them with collecting all the proposals and creating polls with complicated websites was way to much work we went the "programmer way" and spent nearly a year developing our own Discord bot as a group project to handle all those things for us :) We are about 7 active developers. We are more people on the server though. Check out the <a href="https://github.com/Cowoding-Jams/Jambo/wiki" class="link">wiki</a> to learn more about its features and create your own server with it!
+    </p>
+    <Links links={[{ name: `Jambo | Repository`, type: `github`, href: `https://github.com/Cowoding-Jams/Jambo` }]} />
+</section>
