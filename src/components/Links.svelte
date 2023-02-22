@@ -17,15 +17,15 @@
 		<li class="my-2">
 			<a href={link.href} class="flex items-center gap-2 w-fit">
 				{#if link.type === `github`}
-					<GitHub />
+					<GitHub class="h-6 w-6" />
 				{:else if link.type === `file`}
-					<FileDocumentOutline />
+					<FileDocumentOutline class="h-6 w-6" />
 				{:else if link.type === `pdf`}
-					<FilePdfBox />
+					<FilePdfBox class="h-6 w-6" />
 				{:else if link.type === `mail`}
-					<EmailOutline />
+					<EmailOutline class="h-6 w-6" />
 				{:else}
-					<Link />
+					<Link class="h-6 w-6" />
 				{/if}
 				<span class="link text-lg">{link.name}</span>
 			</a>
