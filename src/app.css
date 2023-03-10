@@ -15,9 +15,8 @@ p {
 }
 
 section {
-    @apply p-3 md:p-6 mb-8;
+    @apply pt-3 pl-2 mb-8;
 }
-
 
 @layer components {
     .gradient {
@@ -39,4 +38,66 @@ section {
     .subtitle {
         @apply text-xl text-gray-600 text-center my-6;
     }
+}
+
+@keyframes rainbow {
+
+    0% {
+        color: hsl(0, 100%, 40%)
+    }
+
+    10% {
+        color: hsl(36, 100%, 40%)
+    }
+
+    20% {
+        color: hsl(72, 100%, 40%)
+    }
+
+    30% {
+        color: hsl(108, 100%, 40%)
+    }
+
+    40% {
+        color: hsl(144, 100%, 40%)
+    }
+
+    50% {
+        color: hsl(180, 100%, 40%)
+    }
+
+    60% {
+        color: hsl(216, 100%, 40%)
+    }
+
+    70% {
+        color: hsl(252, 100%, 40%)
+    }
+
+    80% {
+        color: hsl(288, 100%, 40%)
+    }
+
+    90% {
+        color: hsl(314, 100%, 40%)
+    }
+
+    100% {
+        color: hsl(360, 100%, 40%)
+    }
+}
+
+@keyframes bouncy {
+
+    0%,
+    100% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    50% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
 }

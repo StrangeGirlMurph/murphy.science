@@ -36,7 +36,7 @@
 				</li>
 			{/each}
 			<li class="flex items-center">
-				<a href="https://github.com/StrangeGirlMurph" class="hover:text-fav inline-block">
+				<a href="https://github.com/StrangeGirlMurph" class="hover:animate-rainbow inline-block">
 					<GitHub class="h-8 w-8" />
 				</a>
 			</li>

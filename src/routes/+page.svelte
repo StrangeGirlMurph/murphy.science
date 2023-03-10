@@ -8,7 +8,9 @@
 
 <div class="h-full flex flex-col justify-center">
 	<h1 class="title md:text-7xl md:before:content-['🦄'] md:after:content-['🌿']">
-		Hey, I am Murphy!
+		Hey, I am <span class="hover:animate-rainbow">Murphy</span>!
 	</h1>
-	<h2 class="subtitle">Or just Murph for short. Nice to meet you :)</h2>
+	<h2 class="subtitle">
+		Or just Murph for short. Nice to meet <span class="hover:animate-rainbow">you</span> :)
+	</h2>
 </div>
