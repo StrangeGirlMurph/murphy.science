@@ -43,47 +43,47 @@ section {
 @keyframes rainbow {
 
     0% {
-        color: hsl(0, 100%, 40%)
+        color: hsl(0, 100%, 65%)
     }
 
     10% {
-        color: hsl(36, 100%, 40%)
+        color: hsl(36, 100%, 65%)
     }
 
     20% {
-        color: hsl(72, 100%, 40%)
+        color: hsl(72, 100%, 65%)
     }
 
     30% {
-        color: hsl(108, 100%, 40%)
+        color: hsl(108, 100%, 65%)
     }
 
     40% {
-        color: hsl(144, 100%, 40%)
+        color: hsl(144, 100%, 65%)
     }
 
     50% {
-        color: hsl(180, 100%, 40%)
+        color: hsl(180, 100%, 65%)
     }
 
     60% {
-        color: hsl(216, 100%, 40%)
+        color: hsl(216, 100%, 65%)
     }
 
     70% {
-        color: hsl(252, 100%, 40%)
+        color: hsl(252, 100%, 65%)
     }
 
     80% {
-        color: hsl(288, 100%, 40%)
+        color: hsl(288, 100%, 65%)
     }
 
     90% {
-        color: hsl(314, 100%, 40%)
+        color: hsl(314, 100%, 65%)
     }
 
     100% {
-        color: hsl(360, 100%, 40%)
+        color: hsl(360, 100%, 65%)
     }
 }
 
