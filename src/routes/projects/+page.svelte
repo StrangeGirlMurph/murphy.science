@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title md:before:content-['🐢'] md:after:content-['👩‍💻']">Side Projects</h1>
+	<h1 class="title md:before:content-['🐢_'] md:after:content-['_👩‍💻']">Side Projects</h1>
 	<h2 class="subtitle">An overview of smaller side projects.</h2>
 </div>
 

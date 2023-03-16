@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="heading mb-10 mt-24">
-	<h1 class="title md:before:content-['🥰'] md:after:content-['🐈‍⬛']">Cats & Kittens</h1>
+	<h1 class="title md:before:content-['🥰_'] md:after:content-['_🐈‍⬛']">Cats & Kittens</h1>
 	<h2 class="subtitle">You found the secret kittens! (Reload for more 💕)</h2>
 </div>
 

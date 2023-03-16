@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="h-full flex flex-col justify-center">
-	<h1 class="title md:text-7xl md:before:content-['🦄'] md:after:content-['🌿']">
+	<h1 class="title md:text-7xl md:before:content-['🦄_'] md:after:content-['_🌿']">
 		Hey, I am <span class="hover:animate-rainbow">Murphy</span>!
 	</h1>
 	<h2 class="subtitle">

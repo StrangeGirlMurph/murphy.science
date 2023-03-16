@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title md:before:content-['🫐'] md:after:content-['🖥️']">Work</h1>
+	<h1 class="title md:before:content-['🫐_'] md:after:content-['_🖥️']">Work</h1>
 	<h2 class="subtitle">An overview of my rather serious work.</h2>
 </div>
 
