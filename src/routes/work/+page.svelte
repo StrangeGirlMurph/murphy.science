@@ -12,6 +12,26 @@
 	<h2 class="subtitle">An overview of my rather serious work.</h2>
 </div>
 
+<h1>Obsidian Wikipedia Search Plugin</h1>
+<section>
+	<p>
+		A plugin for the note taking app <a class="link" href="https://obsidian.md/">Obsidian</a> that
+		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search for
+		articles and link them in directly in their notes from within the app. I built it because I was looking
+		for that feature myself when writing about sciency stuff and I want the information easily accessible
+		without having to specifically search for it.
+	</p>
+	<Links
+		links={[
+			{
+				name: `obsidian-wikipedia-search | Repository`,
+				type: `github`,
+				href: `https://github.com/StrangeGirlMurph/obsidian-wikipedia-search`
+			}
+		]}
+	/>
+</section>
+
 <h1>The Humane Software License</h1>
 <section>
 	<p>
@@ -101,7 +121,7 @@
 	/>
 </section>
 
-<h1>Jambo Discord Bot</h1>
+<h1>Jambo ⁘ Discord Bot</h1>
 <section>
 	<p>
 		A Discord bot to manage a whole game jam/hackathon server from a fully functional poll system to
