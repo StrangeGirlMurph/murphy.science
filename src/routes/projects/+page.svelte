@@ -12,6 +12,41 @@
 	<h2 class="subtitle">An overview of smaller side projects.</h2>
 </div>
 
+<h1>Open-Source Contributions</h1>
+<section>
+	<p>
+		I am a big fan of open-source software and I try to contribute to projects whenever I got the
+		time and I find some bug or I am looking for a new feature. Sometimes these are just very small
+		things. Sometimes I really get into it. I also like to contribute to the <a
+			class="link"
+			href="https://wikipedia.org">Wikipedia</a
+		>
+		when I notice something is wrong (<a
+			class="link"
+			href="https://en.wikipedia.org/wiki/User:StrangeGirlMurph">Wiki Userpage</a
+		>). Software projects I contributed to:
+	</p>
+	<Links
+		links={[
+			{
+				name: `obsidian-latex-suite | Repository`,
+				type: `github`,
+				href: `https://github.com/artisticat1/obsidian-latex-suite`
+			},
+			{
+				name: `archinstall | Repository`,
+				type: `github`,
+				href: `https://github.com/archlinux/archinstall`
+			},
+			{
+				name: `enmap | Repository`,
+				type: `github`,
+				href: `https://github.com/eslachance/enmap`
+			}
+		]}
+	/>
+</section>
+
 <h1>Coding Projects & monthly Jams</h1>
 <section>
 	<p>
@@ -60,20 +95,6 @@
 				name: `murphy-in.space | Repository`,
 				type: `github`,
 				href: `https://github.com/StrangeGirlMurph/murphy-in.space`
-			}
-		]}
-	/>
-</section>
-
-<h1>Wikipedia</h1>
-<section>
-	<p>I also like to contribute to Wikipedia when I have the time and notice something is wrong.</p>
-	<Links
-		links={[
-			{
-				name: `Wikipedia | Userpage`,
-				type: `link`,
-				href: `https://en.wikipedia.org/wiki/User:StrangeGirlMurph`
 			}
 		]}
 	/>
