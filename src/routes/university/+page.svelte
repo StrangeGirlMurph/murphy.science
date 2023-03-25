@@ -17,10 +17,10 @@
 	</p>
 </section>
 
-<h1>University history</h1>
+<h1>History</h1>
 <section>
 	<p>
-		I am currently studying "Computer Science, Mathematics & Physics" in my first semester. It's a
+		I am currently studying "Computer Science, Mathematics & Physics" in my second semester. It's a
 		tough combination of all three disciplines. I am having the same courses as the regular
 		math/physics/cs students. Just not all of them and my bachelor is longer. Before I started my
 		new bachelor I studied Computer Science & Computational Science somewhere else for a year. It
