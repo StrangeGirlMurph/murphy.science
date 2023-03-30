@@ -1,5 +1,5 @@
 <footer
-	class="flex flex-col sm:flex-row gap-6 justify-between content-center sm:items-center mt-4 w-full"
+	class="flex flex-col-reverse sm:flex-row gap-2 justify-between content-center sm:items-center mt-4 w-full"
 >
 	<div class="space-y-1">
 		Made by me the
