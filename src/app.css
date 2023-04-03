@@ -28,7 +28,7 @@ section {
     }
 
     .heading {
-        @apply my-16 md:my-40;
+        @apply my-16 md:my-32;
     }
 
     .title {
