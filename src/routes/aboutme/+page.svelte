@@ -19,7 +19,7 @@
 			<p>
 				In a nutshell I am a young, left and queer girl called Murphy. I go by she/her pronouns but
 				they/them pronouns are also fine. I live in a great city somewhere on planet Earth (hint:
-				UTC+1). I love to learn and some of my greatest strengths are my ability to be very
+				UTC+2). I love to learn and some of my greatest strengths are my ability to be very
 				disciplined when I need and want to be, my empathy, my pride and my incredible motivation to
 				save this world. In May 2020 I built my first computer (named <a
 					href="https://interstellarfilm.fandom.com/wiki/TARS"
