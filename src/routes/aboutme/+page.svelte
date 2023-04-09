@@ -27,12 +27,12 @@
 				>). Since then my knowledge has basically increased exponentially and I learned a ton about
 				science and specifically computer science and just never stopped. My true passion is
 				physics. I had an amazing physics teacher in school and learned so much from him. There is
-				to much pain and suffering in the world though for me to just follow my passion and learn
+				too much pain and suffering in the world though for me to just follow my passion and learn
 				about some particles which are so small that no one will ever be able to see them. That's
 				why I am dedicating a lot of my attention towards computer science instead. I can do a lot
 				more relevant for the world with software then I could with studying quantum mechanics. And
-				I think AI has an incredible potential to boost all kinds scientific research. I mean just
-				look at what <a href="https://www.deepmind.com/" class="link">DeepMind</a> is already
+				I think AI has an incredible potential to boost all kinds of scientific research. I mean
+				just look at what <a href="https://www.deepmind.com/" class="link">DeepMind</a> is already
 				achieving with
 				<a class="link" href="https://www.deepmind.com/research/highlighted-research/alphafold"
 					>AlphaFold</a
