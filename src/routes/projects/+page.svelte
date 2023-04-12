@@ -63,12 +63,12 @@
 				name: `CodingProjects | Repository`,
 				type: `github`,
 				href: `https://github.com/StrangeGirlMurph/CodingProjects`
-			},
-			{
+			}
+			/* {
 				name: `Coding-Jams | Repository`,
 				type: `github`,
 				href: `https://github.com/Cowoding-Jams/Coding-Jams`
-			}
+			} */
 		]}
 	/>
 </section>
