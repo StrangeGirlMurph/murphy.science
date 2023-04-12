@@ -65,7 +65,7 @@
 		introduction into fractal geometry and holomorphic dynamics being the mathematical foundation
 		for some of the most well known fractals which I also cover. I created all the visuals myself in
 		Mathematica 13. You can run and edit them yourself by downloading the source code from below. I
-		wrote it in my second cs semester but to read and understand it only a bit of mathematical
+		wrote it in my second uni semester but to read and understand it only a bit of mathematical
 		notation is required to understand it. It's highly influenced by <a
 			href="https://www.youtube.com/@3blue1brown"
 			class="link">3Blue1Brown</a
@@ -127,7 +127,7 @@
 		A Discord bot to manage a whole game jam/hackathon server from a fully functional poll system to
 		managing color roles. I am the owner of a Discord server called Cowoding Jams where we host
 		monthly coding jams. Because organizing them with collecting all the proposals and creating
-		polls with complicated websites was way to much work we went the "programmer way" and spent
+		polls with complicated websites was way too much work we went the "programmer way" and spent
 		nearly a year developing our own Discord bot as a group project to handle all those things for
 		us :) We are about 7 active developers. We are more people on the server though. Check out the <a
 			href="https://github.com/Cowoding-Jams/Jambo/wiki"
