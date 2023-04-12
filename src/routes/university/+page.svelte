@@ -9,7 +9,7 @@
 
 <div class="heading">
 	<h1 class="title md:before:content-['🌳_'] md:after:content-['_👩‍🎓']">University</h1>
-	<h2 class="subtitle">Some resources I want to share with my fellow students.</h2>
+	<h2 class="subtitle">My uni history and some resources for my fellow students.</h2>
 </div>
 
 <h1>Scientific Knowledge Base</h1>
