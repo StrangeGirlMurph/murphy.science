@@ -53,7 +53,7 @@
 	<p>
 		I want to save the world and make it a better place. I want to fight the pain and suffering. I
 		can't survive just watching humans suffer all over the world and not doing anything about it. I
-		am way to empathetic for that. Their pain is my pain. I am good at and love science.
+		am way too empathetic for that. Their pain is my pain. I am good at and love science.
 		Specifically computer science, mathematics and physics which is also exactly what I am currently
 		studying at university. As I already mentioned in the "Who am I?" section my future work will
 		mostly have to do with cs though. Currently I am in the filling my brain with skills and

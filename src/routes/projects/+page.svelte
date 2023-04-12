@@ -84,7 +84,7 @@
 		>, <a class="link" href="https://tailwindcss.com/">Tailwind</a> and deployed it with
 		<a class="link" href="https://vercel.com/">Vercel</a>. First I tried using
 		<a href="https://fresh.deno.dev/" class="link">Fresh</a>, Deno and Deno Deploy because I fell in
-		love with Deno but I am just way to new to web development and wasn't up for it. Then I used
+		love with Deno but I am just way too new to web development and wasn't up for it. Then I used
 		<a href="https://nuxt.com/" class="link">Nuxt</a> but it wasn't a good fit either. I really don't
 		like web development but it's kinda just what you have to learn in order to built things like this...
 		I am pretty happy with SvelteKit now though :)
