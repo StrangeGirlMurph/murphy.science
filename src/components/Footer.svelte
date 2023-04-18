@@ -10,7 +10,9 @@
 		<a href="https://github.com/StrangeGirlMurph" class="text-fav hover:underline">
 			StrangeGirlMurph
 		</a>
-		<div class="text-gray-500 text-xs">Copyright © 2023 Murphy</div>
+		<div class="text-gray-500 text-xs">
+			Copyright © 2023 <span class="hover:animate-rainbow">Murphy</span>
+		</div>
 	</div>
 
 	<!-- <a class="hover:animate-bouncy" href="https://ko-fi.com/murph">
