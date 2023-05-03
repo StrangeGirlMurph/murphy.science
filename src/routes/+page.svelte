@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Murphy</title>
+	<title>Murphy Sünnenwold</title>
 	<meta
 		name="description"
 		content="Hey, I am Murphy! This is my homepage. Take a look. I hid some easter eggs :)"
