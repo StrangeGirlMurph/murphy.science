@@ -48,7 +48,7 @@
 	<img class="rounded-full w-[340px] mb-8" src="/profile.png" alt="profile" />
 </div>
 
-<h1>What do I do with my life?</h1>
+<h1>What am I doing with my life?</h1>
 <section>
 	<p>
 		I want to save the world and make it a better place. I want to fight the pain and suffering. I
