@@ -24,7 +24,7 @@
 		when I notice something is wrong (<a
 			class="link"
 			href="https://en.wikipedia.org/wiki/User:StrangeGirlMurph">Wiki Userpage</a
-		>). (Software) projects I contributed to:
+		>). (Software) projects I contributed to (wrote code for) (the list of issues is much longer):
 	</p>
 	<Links
 		links={[
