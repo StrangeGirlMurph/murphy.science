@@ -15,11 +15,16 @@
 <h1>Scientific Knowledge Base</h1>
 <section>
 	<p>
+		<i
+			>Currently the knowledge base is still very much WIP. Of course it will in some sense be WIP
+			all my life... What I mean is that I am not really happy with the current state of it :/
+			Please keep that in mind when taking a look or just wait until I removed this disclaimer
+			(Soon™).
+		</i> <br />
+
 		During my studies I take a lot of notes. All these notes and everything else I learn which I
-		also written down somewhere ends up in my knowledge base. It's an <a
-			class="link"
-			href="http://obsidian.md">Obsidian</a
-		>
+		also written down somewhere ends up in my knowledge base. It's an
+		<a class="link" href="http://obsidian.md">Obsidian</a>
 		vault written in German which I share with everyone over a GitHub repo under a
 		<a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 			CC BY-NC-SA 4.0 License</a

@@ -24,10 +24,15 @@
 		when I notice something is wrong (<a
 			class="link"
 			href="https://en.wikipedia.org/wiki/User:StrangeGirlMurph">Wiki Userpage</a
-		>). Software projects I contributed to:
+		>). (Software) projects I contributed to:
 	</p>
 	<Links
 		links={[
+			{
+				name: `typst | Repository`,
+				type: `github`,
+				href: `https://github.com/typst/typst`
+			},
 			{
 				name: `obsidian-latex-suite | Repository`,
 				type: `github`,
@@ -37,6 +42,11 @@
 				name: `archinstall | Repository`,
 				type: `github`,
 				href: `https://github.com/archlinux/archinstall`
+			},
+			{
+				name: `Arch User Repository | ArchWiki`,
+				type: `link`,
+				href: `https://wiki.archlinux.org/title/Arch_User_Repository`
 			},
 			{
 				name: `enmap | Repository`,
