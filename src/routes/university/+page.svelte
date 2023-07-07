@@ -12,29 +12,20 @@
 	<h2 class="subtitle">My uni history and some resources for my fellow students.</h2>
 </div>
 
-<h1>Scientific Knowledge Base</h1>
+<h1>Scientific Knowledge Base (<i>Coming Soon™</i>)</h1>
 <section>
 	<p>
-		<i
-			>Currently the knowledge base is still very much WIP. Of course it will in some sense be WIP
-			all my life... What I mean is that I am not really happy with the current state of it :/
-			Please keep that in mind when taking a look or just wait until I removed this disclaimer
-			(Soon™).
-		</i> <br />
-
-		During my studies I take a lot of notes. All these notes and everything else I learn which I
-		also written down somewhere ends up in my knowledge base. It's an
+		During my studies I take a lot of notes. All these notes and everything else I learn ends up in
+		my knowledge base. It's an
 		<a class="link" href="http://obsidian.md">Obsidian</a>
-		vault written in German which I share with everyone over a GitHub repo under a
+		vault written in German which I want to share with everyone over a website and GitHub under a
 		<a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 			CC BY-NC-SA 4.0 License</a
 		>. The vault is basically my own little Wikipedia with all the definitions, concepts, theorems
-		and so on I learn. Because it's all written in German mostly my fellow students from Uni and
-		maybe some other German speaking people will find it useful and get something out of it. I hope
-		to some day be able to publish it on the internet in a more accessible way with Obsidian Publish
-		for example.
+		and so on I learn. <!-- Because it's all written in German mostly my fellow students from Uni and
+		maybe some other German speaking people will find it useful and get something out of it. -->
 	</p>
-	<Links
+	<!-- <Links
 		links={[
 			{
 				name: `Knowledge-Base | Repository`,
@@ -42,7 +33,7 @@
 				href: `https://github.com/StrangeGirlMurph/Knowledge-Base`
 			}
 		]}
-	/>
+	/> -->
 </section>
 
 <h1>History</h1>
