@@ -16,10 +16,11 @@
 <section>
 	<p>
 		A plugin for the note taking app <a class="link" href="https://obsidian.md/">Obsidian</a> that
-		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search for
-		articles and link them in directly in their notes from within the app. I built it because I was looking
-		for that feature myself when writing about sciency stuff and I want the information easily accessible
-		without having to specifically search for it.
+		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search, link
+		and open Wikipedia articles directly in their notes from within the app. I built it because I was
+		looking for that functionality myself when writing about scientific stuff. It just makes it so much
+		more convenient to gather knowledge. The plugin is available in the community plugin list and has
+		currently over 1600 downloads.
 	</p>
 	<Links
 		links={[
