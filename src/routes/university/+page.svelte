@@ -39,11 +39,26 @@
 <h1>History</h1>
 <section>
 	<p>
-		I am currently studying Computer Science, Mathematics & Physics. It's a tough combination of all
-		three disciplines. I am having the same courses as the regular math/physics/cs students. Just
-		not all of them and my bachelor is longer. Before I started this bachelor I studied Computer
-		Science & Computational Science somewhere else for a year. It allowed me to take courses on
-		physics and cognitive neurosciences but it was just too applied for me and tbh too easy. Plus I
-		wanted more and serious math. Not just math for cs.
+		I am currently studying Computer Science, Mathematics & Physics. It's a challenging combination
+		of all three disciplines. I am having the same courses as the regular math/physics/cs students.
+		Just not all of them and my bachelor is longer. Before I started this bachelor I studied
+		Computer Science & Computational Science somewhere else for a year. It allowed me to take
+		courses on physics and cognitive neurosciences but it was just too applied and tbh too easy for
+		me. Plus I wanted more and serious math. Not just math for cs.
+	</p>
+</section>
+
+<h1>Ambition</h1>
+<section>
+	<p>
+		I don't worry too much about my university grades. I don't want and need the fanciest education
+		and high paying jobs in the world. Neither do I want to work in the academic field. I want to
+		solve real world problems not end up in fundamental research. As I explained in the About Me: I
+		want to help people and save the world. That's why I decided I'd rather work on useful and
+		impressive projects during my studies that directly benefit humanity than spend my time
+		endlessly studying for exams and memorizing things I can always just look up later. A GitHub
+		profile with useful code is more important to me than some number on a piece of paper. Don't get
+		me wrong! I very ambitions when it comes to learning and understanding the concepts in my
+		bachelor and actually working towards being able to use that knowledge whenever I need it.
 	</p>
 </section>
