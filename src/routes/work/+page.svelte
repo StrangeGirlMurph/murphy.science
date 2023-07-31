@@ -20,7 +20,7 @@
 		and open Wikipedia articles directly in their notes from within the app. I built it because I was
 		looking for that functionality myself when writing about scientific stuff. It just makes it so much
 		more convenient to gather knowledge. The plugin is available in the community plugin list and has
-		currently over 1600 downloads.
+		currently over 2000 downloads.
 	</p>
 	<Links
 		links={[

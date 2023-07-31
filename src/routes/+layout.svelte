@@ -9,6 +9,7 @@
 	inject({ mode: dev ? 'development' : 'production' });
 
 	console.log('Hello World!');
+	console.log('Have fun taking a look behind the scenes :)');
 </script>
 
 <div class="flex justify-center">
