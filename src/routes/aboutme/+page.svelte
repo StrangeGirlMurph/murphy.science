@@ -1,5 +1,7 @@
 <script>
 	import Links from '../../components/Links.svelte';
+
+	$: age = (Date.now() - new Date('2003-05-26').getTime()) / 31536000000;
 </script>
 
 <svelte:head>
@@ -17,22 +19,21 @@
 		<h1>Who am I?</h1>
 		<section>
 			<p>
-				In a nutshell I am a young, left and queer girl called Murphy. I go by she/her pronouns but
-				they/them pronouns are also fine. I live in a great city somewhere on planet Earth (hint:
-				UTC+2). I love to learn and some of my greatest strengths are my ability to be very
-				disciplined when I need and want to be, my empathy, my pride and my incredible motivation to
-				save this world. In May 2020 I built my first computer (named <a
-					href="https://interstellarfilm.fandom.com/wiki/TARS"
-					class="link">TARS</a
-				>). Since then my knowledge has basically increased exponentially and I learned a ton about
-				science and specifically computer science and just never stopped. My true passion is
-				physics. I had an amazing physics teacher in school and learned so much from him. There is
-				too much pain and suffering in the world though for me to just follow my passion and learn
-				about some particles which are so small that no one will ever be able to see them. That's
-				why I am dedicating a lot of my attention towards computer science instead. I can do a lot
-				more relevant for the world with software then I could with studying quantum mechanics. And
-				I think AI has an incredible potential to boost all kinds of scientific research. I mean
-				just look at what <a href="https://www.deepmind.com/" class="link">DeepMind</a> is already
+				In a nutshell I am a young, left and queer girl called Murphy. I am roughly {age.toFixed(4)} years
+				old. I go by she/her pronouns but they/them pronouns are also fine. I live in a great city somewhere
+				on planet Earth (hint: UTC+2). I love to learn and some of my greatest strengths are my ability
+				to be very disciplined when I need and want to be, my empathy, my pride and my incredible motivation
+				to save this world. In May 2020 I built my first computer (named
+				<a href="https://interstellarfilm.fandom.com/wiki/TARS" class="link">TARS</a>). Since then
+				my knowledge has basically increased exponentially and I learned a ton about science and
+				specifically computer science and just never stopped. My true passion is physics. I had an
+				amazing physics teacher in school and learned so much from him. There is too much pain and
+				suffering in the world though for me to just follow my passion and learn about some
+				particles which are so small that no one will ever be able to see them. That's why I am
+				dedicating a lot of my attention towards computer science instead. I can do a lot more
+				relevant for the world with software then I could with studying quantum mechanics. And I
+				think AI has an incredible potential to boost all kinds of scientific research. I mean just
+				look at what <a href="https://www.deepmind.com/" class="link">DeepMind</a> is already
 				achieving with
 				<a class="link" href="https://www.deepmind.com/research/highlighted-research/alphafold"
 					>AlphaFold</a

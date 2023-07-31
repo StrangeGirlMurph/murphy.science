@@ -7,6 +7,8 @@
 	import { inject } from '@vercel/analytics';
 
 	inject({ mode: dev ? 'development' : 'production' });
+
+	console.log('Hello World!');
 </script>
 
 <div class="flex justify-center">
