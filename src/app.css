@@ -38,6 +38,10 @@ section {
     .subtitle {
         @apply text-xl text-gray-600 text-center my-6;
     }
+
+    .rainbow {
+        background-image: linear-gradient(45deg, #ff83d3, #a28be7, #659cff, #37ff42, #ffd03e, #ffb057, #ff4c55);
+    }
 }
 
 @keyframes rainbow {

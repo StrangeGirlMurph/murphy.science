@@ -12,12 +12,13 @@
 	console.log('Have fun taking a look behind the scenes :)');
 </script>
 
-<div class="flex justify-center">
+<div class="flex flex-col min-h-screen items-center">
+	<div class="h-[5px] rainbow w-screen" />
 	<div
-		class="p-4 sm:p-6 flex flex-col justify-between items-center w-full min-h-screen max-w-screen-2xl "
+		class="p-4 sm:p-6 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl "
 	>
 		<Header />
-		<main class="grow max-w-screen-xl">
+		<main class="grow max-w-screen-xl flex flex-col justify-center">
 			<slot />
 		</main>
 		<Footer />
