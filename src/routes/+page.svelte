@@ -8,10 +8,10 @@
 
 <div class="flex flex-col justify-center">
 	<h1 class="title md:text-7xl lg:before:content-['🦄_'] lg:after:content-['_🌿']">
-		Hey, I am <span class="hover:animate-rainbow-animation">Murphy</span>!
+		Hey, I am <span class="hover:animate-rainbow">Murphy</span>!
 	</h1>
 	<h2 class="subtitle">
 		Or just Murph for short. <br class="sm:hidden" /> Nice to meet
-		<span class="hover:animate-rainbow-animation">you</span> :)
+		<span class="hover:animate-rainbow">you</span> :)
 	</h2>
 </div>
