@@ -19,7 +19,7 @@ section {
 }
 
 body {
-    @apply bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100 ;
+    @apply bg-zinc-50 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-50 ;
 }
 
 @layer components {
