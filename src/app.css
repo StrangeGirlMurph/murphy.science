@@ -11,20 +11,28 @@ h2 {
 }
 
 p {
-    @apply text-lg text-start text-gray-700;
+    @apply text-lg text-start alt-color;
 }
 
 section {
     @apply pt-3 pl-2 mb-8;
 }
 
+body {
+    @apply bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100 ;
+}
+
 @layer components {
-    .gradient {
-        @apply underline text-transparent bg-clip-text bg-gradient-to-r from-cgreen via-cblue to-cpink
+    .text-green {
+        @apply text-lime-500 dark:text-lime-300;
+    }
+
+    .alt-color {
+        @apply text-zinc-700 dark:text-zinc-200;
     }
 
     .link {
-        @apply hover:underline text-cblue;
+        @apply hover:underline text-sky-500 dark:text-sky-300;
     }
 
     .heading {
@@ -36,72 +44,40 @@ section {
     }
 
     .subtitle {
-        @apply text-xl text-gray-600 text-center my-6;
+        @apply text-xl alt-color text-center my-6;
     }
 
-    .rainbow {
+    .rainbow-bg {
         background-image: linear-gradient(45deg, #ff83d3, #a28be7, #659cff, #37ff42, #ffd03e, #ffb057, #ff4c55);
     }
-}
 
-@keyframes rainbow {
-
-    0% {
-        color: hsl(0, 100%, 65%)
-    }
-
-    10% {
-        color: hsl(36, 100%, 65%)
-    }
-
-    20% {
-        color: hsl(72, 100%, 65%)
-    }
-
-    30% {
-        color: hsl(108, 100%, 65%)
-    }
-
-    40% {
-        color: hsl(144, 100%, 65%)
-    }
-
-    50% {
-        color: hsl(180, 100%, 65%)
-    }
-
-    60% {
-        color: hsl(216, 100%, 65%)
-    }
-
-    70% {
-        color: hsl(252, 100%, 65%)
-    }
-
-    80% {
-        color: hsl(288, 100%, 65%)
-    }
-
-    90% {
-        color: hsl(314, 100%, 65%)
-    }
-
-    100% {
-        color: hsl(360, 100%, 65%)
+    .rainbow-text {
+        @apply bg-clip-text text-transparent;
+        background-image: linear-gradient(-70deg, #ff83d3, #a28be7, #659cff, #37ff42, #ffd03e, #ffb057, #ff4c55);
     }
 }
 
-@keyframes bouncy {
+@keyframes rainbow-animation {
+    0% {color: hsl(0, 100%, 65%)}
+    10% {color: hsl(36, 100%, 65%)}
+    20% {color: hsl(72, 100%, 65%)}
+    30% {color: hsl(108, 100%, 65%)}
+    40% {color: hsl(144, 100%, 65%)}
+    50% {color: hsl(180, 100%, 65%)}
+    60% {color: hsl(216, 100%, 65%)}
+    70% {color: hsl(252, 100%, 65%)}
+    80% {color: hsl(288, 100%, 65%)}
+    90% {color: hsl(314, 100%, 65%)}
+    100% {color: hsl(360, 100%, 65%)}
+}
 
-    0%,
-    100% {
+@keyframes bounce-animation {
+    0%, 100% {
         transform: none;
         animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
     }
-
     50% {
         transform: translateY(-25%);
         animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
     }
-
 }

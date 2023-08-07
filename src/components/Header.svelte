@@ -1,6 +1,7 @@
 <script setup>
 	import { page } from '$app/stores';
 	import GitHub from 'svelte-material-icons/Github.svelte';
+	import ThemeToggle from './ThemeToggle.svelte';
 
 	export const menus = [
 		{ name: 'Home', href: '/' },
@@ -18,7 +19,7 @@
 				<a href="https://ko-fi.com/murph" class="group-hover:animate-spin-slow">
 					<img src="/profile-25.png" alt="pfp" class="h-10 w-10 rounded-full" />
 				</a>
-				<a href="/" class="text-2xl font-bold group-hover:gradient"> Murphy </a>
+				<a href="/" class="text-2xl font-bold group-hover:rainbow-text"> Murphy </a>
 			</div>
 		</div>
 
@@ -28,8 +29,8 @@
 					<a
 						href={menu.href}
 						class="text-lg hover:underline text-center {menu.href === $page.route.id
-							? 'text-fav'
-							: 'text-gray-700'}"
+							? 'text-green'
+							: ''}"
 					>
 						{menu.name}
 					</a>
@@ -39,6 +40,9 @@
 				<a href="https://github.com/StrangeGirlMurph" class="hover:animate-rainbow inline-block">
 					<GitHub class="h-8 w-8" />
 				</a>
+			</li>
+			<li class="flex items-center">
+				<ThemeToggle />
 			</li>
 		</ul>
 	</nav>

@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex flex-col min-h-screen items-center">
-	<div class="h-[5px] rainbow w-screen" />
+	<div class="h-[5px] rainbow-bg w-screen" />
 	<div
 		class="p-4 sm:p-6 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl "
 	>

@@ -19,11 +19,11 @@
 		<h1>Who am I?</h1>
 		<section>
 			<p>
-				In a nutshell I am a young, left and queer girl called Murphy. I am roughly {age.toFixed(4)} years
-				old. I go by she/her pronouns but they/them pronouns are also fine. I live in a great city somewhere
-				on planet Earth (hint: UTC+2). I love to learn and some of my greatest strengths are my ability
-				to be very disciplined when I need and want to be, my empathy, my pride and my incredible motivation
-				to save this world. In May 2020 I built my first computer (named
+				In a nutshell I am a young, left and queer girl called Murphy. I am roughly {age.toFixed(4)}
+				years old. I go by she/her pronouns but they/them pronouns are also fine. I live in a great city
+				somewhere on planet Earth (hint: UTC+2). I love to learn and some of my greatest strengths are
+				my ability to be very disciplined when I need and want to be, my empathy, my pride and my incredible
+				motivation to save this world. In May 2020 I built my first computer (named
 				<a href="https://interstellarfilm.fandom.com/wiki/TARS" class="link">TARS</a>). Since then
 				my knowledge has basically increased exponentially and I learned a ton about science and
 				specifically computer science and just never stopped. My true passion is physics. I had an
@@ -41,7 +41,7 @@
 				for example. Now back to the important things though: I LOVE How I Met Your Mother 😊. For me
 				it's the single greatest piece of art ever created! You should watch it if you haven't already!
 				<br />
-				Oh and I like <a href="/cats" class="hover:gradient">cats</a> :)
+				Oh and I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
 			</p>
 		</section>
 	</div>
