@@ -10,10 +10,6 @@
 		{ name: 'Side Projects', href: '/projects' },
 		{ name: 'University', href: '/university' }
 	];
-
-	function test() {
-		console.log('test');
-	}
 </script>
 
 <header class="w-full">
