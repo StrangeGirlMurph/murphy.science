@@ -46,7 +46,7 @@
 		</section>
 	</div>
 
-	<img class="rounded-full w-[340px] mb-8" src="/profile.png" alt="profile" />
+	<img class="rounded-full w-[340px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
 </div>
 
 <h1>What am I doing with my life?</h1>

@@ -16,7 +16,7 @@
 	<nav class="flex flex-col md:flex-row gap-6 justify-between">
 		<div class="flex items-center flex-grow-0 gap-3 group">
 			<a href="https://ko-fi.com/murph" class="group-hover:animate-spin-slow">
-				<img src="/profile-25.png" alt="pfp" class="h-10 w-10 rounded-full" />
+				<img src="/profile-25.png" alt="pfp" class="h-10 w-10 rounded-full shadow-lg" />
 			</a>
 			<a href="/" class="text-2xl font-bold"> Murphy </a>
 		</div>
