@@ -12,7 +12,7 @@
 	console.log('Have fun taking a look behind the scenes :)');
 </script>
 
-<div class="flex flex-col items-center" style="height:100vh; height: 100svh;">
+<div class="flex flex-col items-center" style="min-height:100vh; min-height: 100svh;">
 	<div class="h-[5px] rainbow-bg w-screen" />
 	<div
 		class="p-4 sm:p-6 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl "
