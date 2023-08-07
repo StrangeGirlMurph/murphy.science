@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 h1 {
-    @apply text-3xl md:text-4xl text-start;
+    @apply text-3xl md:text-4xl;
 }
 
 h2 {
-    @apply text-2xl md:text-3xl text-start mt-3;
+    @apply text-2xl md:text-3xl mt-3;
 }
 
 p {
-    @apply text-lg text-start alt-color;
+    @apply text-lg alt-color;
 }
 
 section {
@@ -40,11 +40,11 @@ body {
     }
 
     .title {
-        @apply text-5xl md:text-6xl text-center leading-tight;
+        @apply text-5xl md:text-6xl sm:text-center leading-tight;
     }
 
     .subtitle {
-        @apply text-xl alt-color text-center my-6;
+        @apply text-xl alt-color sm:text-center my-6;
     }
 
     .rainbow-bg {
