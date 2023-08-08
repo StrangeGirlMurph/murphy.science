@@ -19,7 +19,7 @@ section {
 }
 
 body {
-    @apply bg-zinc-50 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-50 ;
+    @apply bg-zinc-50 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 ;
 }
 
 @layer components {
@@ -28,11 +28,11 @@ body {
     }
 
     .alt-color {
-        @apply text-zinc-700 dark:text-zinc-200;
+        @apply text-zinc-700 dark:text-zinc-300;
     } 
 
     .link {
-        @apply hover:underline text-sky-500 dark:text-sky-300;
+        @apply hover:underline text-sky-600 dark:text-sky-300;
     }
 
     .heading {
