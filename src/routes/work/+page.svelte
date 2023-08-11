@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
 	import Links from '../../components/Links.svelte';
+	export let data;
 </script>
 
 <svelte:head>
@@ -16,11 +17,11 @@
 <section>
 	<p>
 		A plugin for the note taking app <a class="link" href="https://obsidian.md/">Obsidian</a> that
-		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search, link
-		and open Wikipedia articles directly in their notes from within the app. I built it because I was
-		looking for that functionality myself when writing about scientific stuff. It just makes it so much
-		more convenient to gather knowledge. The plugin is available in the community plugin list and has
-		currently over 2000 downloads.
+		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search,
+		link and open Wikipedia articles directly in their notes from within the app. I built it because
+		I was looking for that functionality myself when writing about scientific stuff. It just makes
+		it so much more convenient to gather knowledge. The plugin is available in the community plugin
+		list and has currently {data['downloads'] ?? 'over 2000'} downloads.
 	</p>
 	<Links
 		links={[
