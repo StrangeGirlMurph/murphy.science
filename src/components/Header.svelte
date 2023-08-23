@@ -15,40 +15,31 @@
 	];
 
 	let menuOpen = false;
-
-	onMount(() => {
-		window.onresize = () => {
-			if (window.innerWidth >= 768) menuOpen = false;
-		};
-	});
 </script>
 
 <header class="w-full">
-	<nav class="flex flex-row justify-between">
-		<div class="flex items-center gap-3 group min-w-fit">
-			<a href="https://ko-fi.com/murph" class="group-hover:animate-spin-slow">
-				<img src="/profile-25.png" alt="pfp" class="h-10 w-10 rounded-full shadow-lg" />
-			</a>
-			<a href="/" class="text-2xl font-bold"> Murphy </a>
+	<nav class="flex flex-col md:flex-row justify-between gap-4">
+		<div class="flex justify-between">
+			<div class="flex items-center gap-3 group min-w-fit">
+				<a href="https://ko-fi.com/murph" class="group-hover:animate-spin-slow">
+					<img src="/profile-25.png" alt="pfp" class="h-10 w-10 rounded-full shadow-lg" />
+				</a>
+				<a href="/" class="text-2xl font-bold"> Murphy </a>
+			</div>
+			<button
+				class="md:hidden"
+				on:mouseup={() => {
+					menuOpen = !menuOpen;
+				}}
+			>
+				{#if menuOpen}
+					<MenuOpen class="h-8 w-8" />
+				{:else}
+					<Menu class="h-8 w-8" />
+				{/if}
+			</button>
 		</div>
-		<button
-			class="md:hidden"
-			on:mouseup={() => {
-				menuOpen = !menuOpen;
-			}}
-		>
-			{#if menuOpen}
-				<MenuOpen class="h-8 w-8" />
-				<span class="fixed inset-0" />
-			{:else}
-				<Menu class="h-8 w-8" />
-			{/if}
-		</button>
-		<ul
-			class="md:flex flex-col md:flex-row items-center gap-4 justify-center {!menuOpen
-				? 'hidden'
-				: 'flex absolute background p-6 rounded-l-xl gap-6 shadow-xl top-[70px] right-0'}"
-		>
+		<ul class="md:flex flex-wrap items-center gap-4 justify-center {!menuOpen ? 'hidden' : 'flex'}">
 			{#each menus as menu}
 				<li>
 					<a
