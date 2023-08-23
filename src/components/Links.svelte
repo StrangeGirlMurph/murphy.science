@@ -15,17 +15,17 @@
 <ul class="mt-4">
 	{#each links as link}
 		<li class="my-2">
-			<a href={link.href} class="flex items-center gap-2 w-fit">
+			<a href={link.href} class="flex items-center gap-2">
 				{#if link.type === `github`}
-					<GitHub class="h-6 w-6" />
+					<GitHub class="h-6 w-6 flex-shrink-0" />
 				{:else if link.type === `file`}
-					<FileDocumentOutline class="h-6 w-6" />
+					<FileDocumentOutline class="h-6 w-6 flex-shrink-0" />
 				{:else if link.type === `pdf`}
-					<FilePdfBox class="h-6 w-6" />
+					<FilePdfBox class="h-6 w-6 flex-shrink-0" />
 				{:else if link.type === `mail`}
-					<EmailOutline class="h-6 w-6" />
+					<EmailOutline class="h-6 w-6 flex-shrink-0" />
 				{:else}
-					<Link class="h-6 w-6" />
+					<Link class="h-6 w-6 flex-shrink-0" />
 				{/if}
 				<span class="link text-lg">{link.name}</span>
 			</a>

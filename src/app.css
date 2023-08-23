@@ -19,10 +19,18 @@ section {
 }
 
 body {
-    @apply bg-zinc-50 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 ;
+    @apply bg-zinc-50  dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200;
 }
 
 @layer components {
+    .background {
+        @apply bg-zinc-50  dark:bg-zinc-800;
+    }
+
+    .text {
+        @apply text-zinc-800 dark:text-zinc-200;
+    }
+
     .text-green {
         @apply text-lime-500 dark:text-lime-300;
     }
