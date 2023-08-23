@@ -39,14 +39,15 @@
 		>
 			{#if menuOpen}
 				<MenuOpen class="h-8 w-8" />
+				<span class="fixed inset-0" />
 			{:else}
 				<Menu class="h-8 w-8" />
 			{/if}
 		</button>
 		<ul
-			class="md:flex flex-col md:flex-row items-end md:items-center gap-4 justify-center {!menuOpen
+			class="md:flex flex-col md:flex-row items-center gap-4 justify-center {!menuOpen
 				? 'hidden'
-				: 'flex absolute background p-4 rounded-l-xl shadow-xl top-[70px] right-0'}"
+				: 'flex absolute background p-6 rounded-l-xl gap-6 shadow-xl top-[70px] right-0'}"
 		>
 			{#each menus as menu}
 				<li>
@@ -64,7 +65,13 @@
 				</li>
 			{/each}
 			<li class="flex items-center gap-4">
-				<a href="https://github.com/StrangeGirlMurph" class="hover:animate-rainbow inline-block">
+				<a
+					href="https://github.com/StrangeGirlMurph"
+					class="hover:animate-rainbow inline-block"
+					on:mouseup={() => {
+						menuOpen = false;
+					}}
+				>
 					<GitHub class="h-8 w-8" />
 				</a>
 				<ThemeToggle />
