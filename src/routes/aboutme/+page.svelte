@@ -1,7 +1,78 @@
-<script>
+<script lang="ts">
 	import Links from '../../components/Links.svelte';
-
 	$: age = (Date.now() - new Date('2003-05-26').getTime()) / 31536000000;
+
+	const deviconCDN = 'https://cdn.jsdelivr.net/gh/devicons/devicon@develop/icons/';
+
+	let skills: { name: string; icon: string }[][] = [
+		[
+			{ name: 'Linux', icon: 'linux/linux-original' },
+			{ name: 'Visual Studio Code', icon: 'vscode/vscode-original' },
+			{ name: 'Typescript', icon: 'typescript/typescript-original' },
+			{ name: 'Javascript', icon: 'javascript/javascript-original' },
+			{ name: 'Python', icon: 'python/python-original' },
+			{ name: 'Markdown', icon: 'markdown/markdown-original' },
+			{ name: 'Svelte', icon: 'svelte/svelte-original' },
+			{ name: 'HTML', icon: 'html5/html5-original' },
+			{ name: 'CSS', icon: 'css3/css3-original' },
+			{ name: 'Tailwindcss', icon: 'tailwindcss/tailwindcss-original' },
+			{ name: 'GitHub', icon: 'github/github-original' },
+			{ name: 'LaTeX', icon: 'latex/latex-original' },
+			{ name: 'Moodle', icon: 'moodle/moodle-original' },
+			{ name: 'Discord.js', icon: 'discordjs/discordjs-original' }
+		],
+		[
+			{ name: 'Arch Linux', icon: 'archlinux/archlinux-original' },
+			{ name: 'NixOS', icon: 'nixos/nixos-original' },
+			{ name: 'Windows 11', icon: 'windows11/windows11-original' },
+			{ name: 'RaspberryPi', icon: 'raspberrypi/raspberrypi-original' },
+			{ name: 'Arduino', icon: 'arduino/arduino-original' },
+			{ name: 'Vim', icon: 'vim/vim-original' },
+			{ name: 'Jetbrains', icon: 'jetbrains/jetbrains-original' },
+			{ name: 'Jupyter', icon: 'jupyter/jupyter-original' },
+			{ name: 'Git', icon: 'git/git-original' },
+			{ name: 'GitHub Actions', icon: 'githubactions/githubactions-original' },
+			{ name: 'Deno', icon: 'denojs/denojs-original' },
+			{ name: 'Node.js', icon: 'nodejs/nodejs-original' },
+			{ name: 'NPM', icon: 'npm/npm-original-wordmark' },
+			{ name: 'Docker', icon: 'docker/docker-original' },
+			{ name: 'Bash', icon: 'bash/bash-original' },
+			{ name: 'Rust', icon: 'rust/rust-plain' },
+			{ name: 'C', icon: 'c/c-original' },
+			{ name: 'C#', icon: 'csharp/csharp-original' },
+			{ name: 'Java', icon: 'java/java-original' },
+			{ name: 'Go', icon: 'go/go-original' },
+			{ name: 'Dart', icon: 'dart/dart-original' },
+			{ name: 'Flutter', icon: 'flutter/flutter-original' },
+			{ name: 'Keras', icon: 'keras/keras-original' },
+			{ name: 'TensorFlow', icon: 'tensorflow/tensorflow-original' },
+			{ name: 'Numpy', icon: 'numpy/numpy-original' },
+			{ name: 'Pandas', icon: 'pandas/pandas-original' },
+			{ name: 'Matlab', icon: 'matlab/matlab-original' },
+			{ name: 'opencv', icon: 'opencv/opencv-original' },
+			{ name: 'Processing', icon: 'processing/processing-original' },
+			{ name: 'P5.js', icon: 'p5js/p5js-original' },
+			{ name: 'Unity', icon: 'unity/unity-original' },
+			{ name: 'Google Cloud', icon: 'googlecloud/googlecloud-original' },
+			{ name: 'Firebase', icon: 'firebase/firebase-plain' },
+			{ name: 'Vercel', icon: 'vercel/vercel-original' },
+			{ name: 'Gimp', icon: 'gimp/gimp-original' }
+		],
+		[
+			{ name: 'Visual Studio', icon: 'visualstudio/visualstudio-plain' },
+			{ name: 'Android Studio', icon: 'androidstudio/androidstudio-original' },
+			{ name: 'xcode', icon: 'xcode/xcode-original' },
+			{ name: 'React', icon: 'react/react-original' },
+			{ name: 'Next.js', icon: 'nextjs/nextjs-original' },
+			{ name: 'Vue.js', icon: 'vuejs/vuejs-original' },
+			{ name: 'Nuxt.js', icon: 'nuxtjs/nuxtjs-original' },
+			{ name: 'Figma', icon: 'figma/figma-original' },
+			{ name: 'Blender', icon: 'blender/blender-original' },
+			{ name: 'IFTTT', icon: 'ifttt/ifttt-original' },
+			{ name: 'Kaggle', icon: 'kaggle/kaggle-original' },
+			{ name: 'Godot', icon: 'godot/godot-original' }
+		]
+	];
 </script>
 
 <svelte:head>
@@ -66,6 +137,27 @@
 		I am basically a workaholic and code a lot... My desire and motivation to help humans is pretty
 		unique.
 	</p>
+</section>
+
+<h1>Skills</h1>
+<section>
+	<p>
+		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc.
+		This is a portion of them. I roughly categorized them and tried to sort them by type.
+	</p>
+	{#each ['I am great with', 'I am good with', 'I know the basics of'] as title, index}
+		<h2>{title}</h2>
+		<div class="flex flex-row flex-wrap gap-4 justify-center my-5">
+			{#each skills[index] as skill}
+				<img
+					src="{deviconCDN}{skill.icon}.svg"
+					class="w-11 inline-block drop-shadow-md"
+					title={skill.name}
+					alt={skill.name}
+				/>
+			{/each}
+		</div>
+	{/each}
 </section>
 
 <h1>Contact me</h1>
