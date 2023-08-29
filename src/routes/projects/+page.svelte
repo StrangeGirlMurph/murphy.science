@@ -64,7 +64,7 @@
 		part of Discord server where we do monthly coding jams. From there and just my every day life I
 		have a whole repository full of small projects like riddles, challenges and all kinds of
 		thingies. For example do I like to participate in the Advent of Code every year or do something
-		fun for the Pi-Day. Most of the projects are not finished nor polished at all 🙃. And that's
+		fun for the Pi-Day. Most of the projects are not finished nor polished at all 🙃 And that's
 		okay! This is my having fun repository.
 	</p>
 	<Links

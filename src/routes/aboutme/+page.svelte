@@ -66,11 +66,11 @@
 			{ name: 'Next.js', icon: 'nextjs/nextjs-original' },
 			{ name: 'Vue.js', icon: 'vuejs/vuejs-original' },
 			{ name: 'Nuxt.js', icon: 'nuxtjs/nuxtjs-original' },
-			{ name: 'Figma', icon: 'figma/figma-original' },
-			{ name: 'Blender', icon: 'blender/blender-original' },
-			{ name: 'IFTTT', icon: 'ifttt/ifttt-original' },
 			{ name: 'Kaggle', icon: 'kaggle/kaggle-original' },
-			{ name: 'Godot', icon: 'godot/godot-original' }
+			{ name: 'Godot', icon: 'godot/godot-original' },
+			{ name: 'IFTTT', icon: 'ifttt/ifttt-original' },
+			{ name: 'Figma', icon: 'figma/figma-original' },
+			{ name: 'Blender', icon: 'blender/blender-original' }
 		]
 	];
 </script>
@@ -154,7 +154,7 @@
 			{#each skills[index] as skill}
 				<img
 					src="{deviconCDN}{skill.icon}.svg"
-					class="w-11 inline-block drop-shadow-md dark:drop-shadow-[0px_0px_1px_rgba(150,150,150,0.6)]"
+					class="w-11 inline-block drop-shadow-sm dark:drop-shadow-[0px_0px_0.8px_rgba(180,180,180,0.6)]"
 					title={skill.name}
 					alt={skill.name}
 				/>
