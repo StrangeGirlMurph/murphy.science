@@ -142,8 +142,11 @@
 <h1>Skills</h1>
 <section>
 	<p>
-		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc.
-		This is a portion of them. I roughly categorized them and tried to sort them by type.
+		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc. I
+		roughly categorized them and tried to sort them by type. This is a only a portion of them
+		though. They are limited by the icons I found on <a href="https://devicon.dev/" class="link"
+			>Devicon</a
+		> 🙃
 	</p>
 	{#each ['I am great with', 'I am good with', 'I know the basics of'] as title, index}
 		<h2>{title}</h2>
@@ -151,7 +154,7 @@
 			{#each skills[index] as skill}
 				<img
 					src="{deviconCDN}{skill.icon}.svg"
-					class="w-11 inline-block drop-shadow-md"
+					class="w-11 inline-block drop-shadow-md dark:drop-shadow-[0px_0px_1px_rgba(150,150,150,0.6)]"
 					title={skill.name}
 					alt={skill.name}
 				/>
