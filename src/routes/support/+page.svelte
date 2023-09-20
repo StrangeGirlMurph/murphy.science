@@ -19,7 +19,7 @@
 	some services. I currently have enough to live. Either way have a wonderful day 🐸✨💚
 </p>
 
-<div class="flex flex-row flex-wrap items-center justify-center mt-8 gap-8">
+<div class="flex flex-row flex-wrap items-center justify-center my-8 gap-8">
 	<a href="https://github.com/sponsors/StrangeGirlMurph" title="GitHub">
 		<GitHub class="w-9 h-9" />
 	</a>
