@@ -6,7 +6,7 @@
 	/>
 </svelte:head>
 
-<div class="flex flex-col justify-center">
+<div class="flex-grow flex flex-col justify-center">
 	<h1 class="title text-center md:text-7xl lg:before:content-['🦄_'] lg:after:content-['_🌿']">
 		Hey, I am <span class="hover:animate-rainbow">Murphy</span>!
 	</h1>

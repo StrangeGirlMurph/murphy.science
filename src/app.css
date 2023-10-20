@@ -44,7 +44,7 @@ body {
     }
 
     .heading {
-        @apply my-16 md:my-32;
+        @apply my-14 md:my-20;
     }
 
     .title {
@@ -52,7 +52,7 @@ body {
     }
 
     .subtitle {
-        @apply text-xl alt-color text-center my-6;
+        @apply text-xl alt-color text-center mt-6;
     }
 
     .rainbow-bg {

@@ -32,7 +32,7 @@
 		class="p-4 sm:p-6 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl"
 	>
 		<Header />
-		<main class="grow max-w-screen-xl flex flex-col justify-center">
+		<main class="grow max-w-screen-xl flex flex-col justify-start">
 			<slot />
 		</main>
 		<Footer />
