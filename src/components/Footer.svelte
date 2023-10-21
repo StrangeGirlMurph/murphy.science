@@ -1,6 +1,6 @@
 <script lang="ts">
 	let murphy = 'Murphy';
-	let interval: NodeJS.Timer;
+	let interval: any;
 
 	function grow() {
 		clearInterval(interval);
@@ -39,7 +39,7 @@
 	</div>
 
 	<a
-		class="sm:hover:animate-bounce w-fit h-fit flex items-center justify-center gap-[6px] bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] py-[7px] px-[10px] text-l font-semibold rounded-lg"
+		class="sm:hover:animate-bounce flex items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg"
 		href="/support"
 	>
 		<span class="text-zinc-100 hidden sm:block">Support Me</span>
