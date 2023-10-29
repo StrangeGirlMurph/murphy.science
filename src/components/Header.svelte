@@ -4,7 +4,6 @@
 	import Menu from 'svelte-material-icons/Menu.svelte';
 	import MenuOpen from 'svelte-material-icons/MenuOpen.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
-	import { onMount } from 'svelte';
 
 	export const menus = [
 		{ name: 'Home', href: '/' },

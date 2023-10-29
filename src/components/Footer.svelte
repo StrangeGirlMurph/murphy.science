@@ -32,7 +32,7 @@
 			StrangeGirlMurph
 		</a>
 		<div class="text-xs alt-color">
-			Copyright © 2023&nbsp;<span class="absolute" on:mouseenter={grow} on:mouseleave={shrink}>
+			Copyright © 2023&nbsp;<span aria-hidden="true" class="absolute" on:mouseenter={grow} on:mouseleave={shrink}>
 				{murphy}
 			</span>
 		</div>

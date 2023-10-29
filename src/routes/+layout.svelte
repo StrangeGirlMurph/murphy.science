@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
-	import Footer from '../components/Footer.svelte';
 	import Header from '../components/Header.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
