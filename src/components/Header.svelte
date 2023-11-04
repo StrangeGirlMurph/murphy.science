@@ -16,7 +16,7 @@
 	let menuOpen = false;
 </script>
 
-<header class="w-full">
+<header class="w-full mb-4">
 	<nav class="flex flex-col md:flex-row justify-between gap-4">
 		<div class="flex justify-between">
 			<div class="flex items-center gap-3 group min-w-fit">
