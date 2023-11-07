@@ -27,11 +27,11 @@
 		</div>
 	</div>
 
-	<a
-		data-sveltekit-reload
-		class="flex mt-4 items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg"
-		href="/cats"
-	>
-		MORE CATS!
-	</a>
+	<form method="post">
+		<button
+			class="flex mt-4 items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg"
+		>
+			MORE CATS!</button
+		>
+	</form>
 </div>
