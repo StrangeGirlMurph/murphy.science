@@ -38,7 +38,11 @@
 				{/if}
 			</button>
 		</div>
-		<ul class="md:flex flex-wrap items-center gap-4 justify-center {!menuOpen ? 'hidden' : 'flex'}">
+		<ul
+			class="md:flex flex-wrap items-center gap-4 justify-center border-t-[1px] pt-4 md:'pt-0 border-0' {!menuOpen
+				? 'hidden'
+				: 'flex'}"
+		>
 			{#each menus as menu}
 				<li>
 					<a

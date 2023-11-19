@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-webkit-scrollbar { display:none;}
+
 html {
     @apply font-['Noto_Sans']
 }
