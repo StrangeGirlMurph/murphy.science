@@ -148,8 +148,8 @@
 			>Devicon</a
 		> 🙃
 	</p>
-	{#each ['I am great with', 'I am good with', 'I know the basics of'] as title, index}
-		<h2>{title}</h2>
+	{#each ['I am good with', 'I am okay with', 'I know the basics of'] as title, index}
+		<h2 class="mt-4">{title}</h2>
 		<div class="flex flex-row flex-wrap gap-4 justify-center my-5">
 			{#each skills[index] as skill}
 				<img

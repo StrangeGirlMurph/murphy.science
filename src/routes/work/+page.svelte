@@ -29,6 +29,11 @@
 				name: `obsidian-wikipedia-search | Repository`,
 				type: `github`,
 				href: `https://github.com/StrangeGirlMurph/obsidian-wikipedia-search`
+			},
+			{
+				name: `Wikipedia Search Documentation | Website`,
+				type: `link`,
+				href: `https://strangegirlmurph.github.io/obsidian-wikipedia-search/`
 			}
 		]}
 	/>

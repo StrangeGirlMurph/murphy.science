@@ -22,14 +22,14 @@
 <div class="flex flex-row flex-wrap items-center justify-center my-10 gap-8">
 	<a href="https://github.com/sponsors/StrangeGirlMurph" title="GitHub">
 		GitHub
-		<GitHub class="w-8 h-8 text-black" />
+		<GitHub class="w-7 h-7 text-black" />
 	</a>
 	<a href="https://ko-fi.com/murph" title="Ko-fi">
 		Ko-fi
 		<img
 			src="https://storage.ko-fi.com/cdn/nav-logo-stroke.png"
 			alt="ko-fi logo"
-			class="w-8 h-8 object-contain"
+			class="w-7 h-7 object-contain"
 		/>
 	</a>
 	<a href="https://paypal.me/strangemurph" title="PayPal">
@@ -37,13 +37,13 @@
 		<img
 			src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg"
 			alt="paypal logo"
-			class="w-8 h-8"
+			class="w-7 h-7"
 		/>
 	</a>
 </div>
 
 <style>
 	a {
-		@apply text-[1.3rem] font-semibold flex items-center gap-2 py-2 px-3 rounded-lg bg-gradient-to-tl from-[#ff4ea4] to-[#ff5f5c];
+		@apply text-neutral-100 text-[1.3rem] font-semibold flex items-center gap-2 py-[6px] px-[10px] rounded-lg bg-gradient-to-tl from-[#ff4ea4] to-[#ff5f5c];
 	}
 </style>

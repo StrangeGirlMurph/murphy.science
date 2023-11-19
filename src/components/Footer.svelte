@@ -32,7 +32,12 @@
 			StrangeGirlMurph
 		</a>
 		<div class="text-xs alt-color">
-			Copyright © 2023&nbsp;<span aria-hidden="true" class="absolute" on:mouseenter={grow} on:mouseleave={shrink}>
+			Copyright © 2023&nbsp;<span
+				aria-hidden="true"
+				class="absolute"
+				on:mouseenter={grow}
+				on:mouseleave={shrink}
+			>
 				{murphy}
 			</span>
 		</div>
@@ -42,7 +47,7 @@
 		class="sm:hover:animate-bounce flex items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg"
 		href="/support"
 	>
-		<span class="text-zinc-100 hidden sm:block">Support Me</span>
-		<span class="text-zinc-100 sm:hidden">Sponsor</span>
+		<span class="text-neutral-100 hidden sm:block">Support Me</span>
+		<span class="text-neutral-100 sm:hidden">Sponsor</span>
 	</a>
 </footer>
