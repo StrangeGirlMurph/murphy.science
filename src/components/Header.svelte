@@ -39,7 +39,7 @@
 			</button>
 		</div>
 		<ul
-			class="md:default flex-wrap items-center gap-4 justify-center border-t-[1px] pt-4 {!menuOpen
+			class="md:flex flex-wrap items-center gap-4 justify-center border-t-[1px] pt-4 md:border-t-0 md:pt-0 {!menuOpen
 				? 'hidden'
 				: 'flex'}"
 		>
@@ -73,9 +73,3 @@
 		</ul>
 	</nav>
 </header>
-
-<style>
-	default {
-		@apply flex pt-0 border-0;
-	}
-</style>
