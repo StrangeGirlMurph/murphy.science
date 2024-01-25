@@ -58,7 +58,7 @@
 		impressive projects during my studies that directly benefit humanity than spend my time
 		endlessly studying for exams and memorizing things I can always just look up later. A GitHub
 		profile with useful code is more important to me than some number on a piece of paper. Don't get
-		me wrong! I very ambitions when it comes to learning and understanding the concepts in my
+		me wrong! I am very ambitions when it comes to learning and understanding the concepts in my
 		bachelor and actually working towards being able to use that knowledge whenever I need it.
 	</p>
 </section>
