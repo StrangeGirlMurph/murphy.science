@@ -6,5 +6,5 @@ export async function load() {
 
 	const json = await res.json().catch((err) => undefined);
 	if (!json) return {downloads: undefined};
-	return {downloads: json.map((e: any) => e.assets[0].download_count ?? 0).reduce((a: number, b: number) => a + b)};
+	return {downloads: json.map((e: any) => e.assets[1].download_count ?? 0).reduce((a: number, b: number) => a + b)};
 }
