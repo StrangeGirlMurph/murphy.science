@@ -2,7 +2,7 @@
 	import Links from '../../components/Links.svelte';
 	$: age = (Date.now() - new Date('2003-05-26').getTime()) / 31536000000;
 
-	const deviconCDN = 'https://cdn.jsdelivr.net/gh/devicons/devicon@develop/icons/';
+	const deviconCDN = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/';
 
 	let skills: { name: string; icon: string }[][] = [
 		[
@@ -19,6 +19,7 @@
 			{ name: 'GitHub', icon: 'github/github-original' },
 			{ name: 'LaTeX', icon: 'latex/latex-original' },
 			{ name: 'Moodle', icon: 'moodle/moodle-original' },
+			{ name: 'Notion', icon: 'notion/notion-original' },
 			{ name: 'Discord.js', icon: 'discordjs/discordjs-original' }
 		],
 		[
@@ -32,12 +33,13 @@
 			{ name: 'Jupyter', icon: 'jupyter/jupyter-original' },
 			{ name: 'Git', icon: 'git/git-original' },
 			{ name: 'GitHub Actions', icon: 'githubactions/githubactions-original' },
+			{ name: 'GitLab', icon: 'gitlab/gitlab-original' },
 			{ name: 'Deno', icon: 'denojs/denojs-original' },
 			{ name: 'Node.js', icon: 'nodejs/nodejs-original' },
 			{ name: 'NPM', icon: 'npm/npm-original-wordmark' },
 			{ name: 'Docker', icon: 'docker/docker-original' },
 			{ name: 'Bash', icon: 'bash/bash-original' },
-			{ name: 'Rust', icon: 'rust/rust-plain' },
+			{ name: 'Rust', icon: 'rust/rust-original' },
 			{ name: 'C', icon: 'c/c-original' },
 			{ name: 'C#', icon: 'csharp/csharp-original' },
 			{ name: 'Java', icon: 'java/java-original' },
@@ -48,6 +50,7 @@
 			{ name: 'TensorFlow', icon: 'tensorflow/tensorflow-original' },
 			{ name: 'Numpy', icon: 'numpy/numpy-original' },
 			{ name: 'Pandas', icon: 'pandas/pandas-original' },
+			{ name: 'Matplotlib', icon: 'matplotlib/matplotlib-original' },
 			{ name: 'Matlab', icon: 'matlab/matlab-original' },
 			{ name: 'opencv', icon: 'opencv/opencv-original' },
 			{ name: 'Processing', icon: 'processing/processing-original' },
@@ -55,10 +58,12 @@
 			{ name: 'Unity', icon: 'unity/unity-original' },
 			{ name: 'Google Cloud', icon: 'googlecloud/googlecloud-original' },
 			{ name: 'Firebase', icon: 'firebase/firebase-plain' },
+			{ name: 'Supabase', icon: 'supabase/supabase-original' },
 			{ name: 'Vercel', icon: 'vercel/vercel-original' },
 			{ name: 'Gimp', icon: 'gimp/gimp-original' }
 		],
 		[
+			{ name: 'Zig', icon: 'zig/zig-original' },
 			{ name: 'Visual Studio', icon: 'visualstudio/visualstudio-plain' },
 			{ name: 'Android Studio', icon: 'androidstudio/androidstudio-original' },
 			{ name: 'xcode', icon: 'xcode/xcode-original' },
@@ -66,6 +71,7 @@
 			{ name: 'Next.js', icon: 'nextjs/nextjs-original' },
 			{ name: 'Vue.js', icon: 'vuejs/vuejs-original' },
 			{ name: 'Nuxt.js', icon: 'nuxtjs/nuxtjs-original' },
+			{ name: 'Vite.js', icon: 'vitejs/vitejs-original' },
 			{ name: 'Kaggle', icon: 'kaggle/kaggle-original' },
 			{ name: 'Godot', icon: 'godot/godot-original' },
 			{ name: 'IFTTT', icon: 'ifttt/ifttt-original' },
