@@ -5,8 +5,10 @@
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
 	inject({ mode: dev ? 'development' : 'production' });
+	injectSpeedInsights();
 
 	console.log('Hello World!');
 	console.log('Have fun taking a look behind the scenes :)');
