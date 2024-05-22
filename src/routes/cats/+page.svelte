@@ -23,13 +23,13 @@
 		</a>
 		<div class="m-1">
 			Photo by <a class="link" href={data['user']['links']['html']}>{data['user']['name']}</a> on
-			<a class="link text-black" href="https://unsplash.com/">Unsplash</a>
+			<a class="hover:underline" href="https://unsplash.com/">Unsplash</a>
 		</div>
 	</div>
 
 	<form method="post">
 		<button
-			class="flex mt-4 items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg"
+			class="flex mt-4 items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg text-neutral-100"
 		>
 			MORE CATS!</button
 		>
