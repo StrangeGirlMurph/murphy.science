@@ -21,7 +21,7 @@
 		link and open Wikipedia articles directly in their notes from within the app. I built it because
 		I was looking for that functionality myself when writing about scientific stuff. It just makes
 		it so much more convenient to gather knowledge. The plugin is available in the community plugin
-		list and has {data['downloads'] ?? 'over 2000'} downloads.
+		list and has in total {data['downloads'] ?? 'over 14000'} downloads.
 	</p>
 	<Links
 		links={[
