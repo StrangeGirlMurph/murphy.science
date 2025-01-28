@@ -28,10 +28,6 @@
 	</div>
 
 	<form method="post">
-		<button
-			class="flex mt-4 items-center justify-center bg-gradient-to-br from-[#ff4ea3] to-[#ff5e5c] p-2 font-semibold rounded-lg text-neutral-100"
-		>
-			MORE CATS!</button
-		>
+		<button class="mt-4 link"> <b><i>MORE CATS!</i></b></button>
 	</form>
 </div>

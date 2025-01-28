@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title md:before:content-['😥_'] md:after:content-['_💔']">
+	<h1 class="title">
 		Error {$page.status}
 	</h1>
 	<h2 class="subtitle">

@@ -41,6 +41,7 @@
 			{ name: 'Bash', icon: 'bash/bash-original' },
 			{ name: 'Rust', icon: 'rust/rust-original' },
 			{ name: 'C', icon: 'c/c-original' },
+			{ name: 'C++', icon: 'cplusplus/cplusplus-original' },
 			{ name: 'C#', icon: 'csharp/csharp-original' },
 			{ name: 'Java', icon: 'java/java-original' },
 			{ name: 'Go', icon: 'go/go-original' },
@@ -87,7 +88,7 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title md:before:content-['🥑_'] md:after:content-['_🐬']">About Me</h1>
+	<h1 class="title">About Me</h1>
 	<h2 class="subtitle">Learn a bit about me as a person.</h2>
 </div>
 

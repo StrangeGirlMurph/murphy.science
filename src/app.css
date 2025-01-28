@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-    @apply text-3xl md:text-4xl ;
+    @apply text-3xl md:text-4xl;
 }
 
 h2 {
@@ -25,16 +25,16 @@ section {
 }
 
 body {
-    @apply bg-neutral-50  dark:bg-neutral-900 text-neutral-800 dark:text-neutral-200;
+    @apply bg-zinc-50  dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100;
 }
 
 @layer components {
     .background {
-        @apply bg-neutral-50  dark:bg-neutral-900;
+        @apply bg-zinc-50  dark:bg-zinc-900;
     }
 
     .text {
-        @apply text-neutral-800 dark:text-neutral-200;
+        @apply text-zinc-900 dark:text-zinc-100;
     }
 
     .text-green {
@@ -42,11 +42,11 @@ body {
     }
 
     .alt-color {
-        @apply text-neutral-700 dark:text-neutral-300;
+        @apply text-zinc-800 dark:text-zinc-200;
     } 
 
     .link {
-        @apply hover:underline text-sky-600 dark:text-sky-300;
+        @apply hover:underline text-blue-500 dark:text-sky-300;
     }
 
     .heading {
@@ -54,11 +54,11 @@ body {
     }
 
     .title {
-        @apply text-5xl md:text-6xl sm:text-center leading-tight;
+        @apply text-5xl md:text-6xl  leading-tight;
     }
 
     .subtitle {
-        @apply text-xl alt-color sm:text-center md:mt-6 w-[90%] sm:w-full;
+        @apply text-xl alt-color md:mt-6 w-[90%] sm:w-full;
     }
 
     .rainbow-bg {
