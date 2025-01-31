@@ -44,5 +44,7 @@
 		</div>
 	</div>
 
-	<a href="/support" class="hover:underline"> <i>Support Me </i></a>
+	<a href="/support" class="hover:underline">
+		<i>Support <span class="sm:inline hidden">Me</span></i></a
+	>
 </footer>
