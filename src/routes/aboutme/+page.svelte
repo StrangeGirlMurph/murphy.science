@@ -92,40 +92,37 @@
 	<h2 class="subtitle">Learn a bit about me as a person.</h2>
 </div>
 
-<div class="flex flex-col lg:flex-row items-center lg:items-start lg:gap-8">
-	<div class="w-full">
-		<h1>Who am I?</h1>
-		<section>
-			<p>
-				In a nutshell I am a young, left and queer girl called Murphy. I am roughly {age.toFixed(4)}
-				years old. I go by she/her pronouns but they/them pronouns are also fine. I live in a great city
-				somewhere on planet Earth (hint: UTC+2). I love to learn and some of my greatest strengths are
-				my ability to be very disciplined when I need and want to be, my empathy, my pride and my incredible
-				motivation to save this world. In May 2020 I built my first computer (named
-				<a href="https://interstellarfilm.fandom.com/wiki/TARS" class="link">TARS</a>). Since then
-				my knowledge has basically increased exponentially and I learned a ton about science and
-				specifically computer science and just never stopped. My true passion is physics. I had an
-				amazing physics teacher in school and learned so much from him. There is too much pain and
-				suffering in the world though for me to just follow my passion and learn about some
-				particles which are so small that no one will ever be able to see them. That's why I am
-				dedicating a lot of my attention towards computer science instead. I can do a lot more
-				relevant for the world with software then I could with studying quantum mechanics. And I
-				think AI has an incredible potential to boost all kinds of scientific research. I mean just
-				look at what <a href="https://www.deepmind.com/" class="link">DeepMind</a> is already
-				achieving with
-				<a class="link" href="https://www.deepmind.com/research/highlighted-research/alphafold"
-					>AlphaFold</a
-				>
-				for example. Now back to the important things though: I LOVE How I Met Your Mother 😊. For me
-				it's the single greatest piece of art ever created! You should watch it if you haven't already!
-				<br />
-				Oh and I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
-			</p>
-		</section>
+<h1>Who am I?</h1>
+<section>
+	<div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
+		<p>
+			In a nutshell I am a young, left and queer girl called Murphy. I am roughly {age.toFixed(4)}
+			years old. I go by she/her pronouns but they/them pronouns are also fine. I live in a great city
+			somewhere on planet Earth (hint: UTC+2). I love to learn and some of my greatest strengths are
+			my ability to be very disciplined when I need and want to be, my empathy, my pride and my incredible
+			motivation to save this world. In May 2020 I built my first computer (named
+			<a href="https://interstellarfilm.fandom.com/wiki/TARS" class="link">TARS</a>). Since then my
+			knowledge has basically increased exponentially and I learned a ton about science and
+			specifically computer science and just never stopped. My true passion is physics. I had an
+			amazing physics teacher in school and learned so much from him. There is too much pain and
+			suffering in the world though for me to just follow my passion and learn about some particles
+			which are so small that no one will ever be able to see them. That's why I am dedicating a lot
+			of my attention towards computer science instead. I can do a lot more relevant for the world
+			with software then I could with studying quantum mechanics. And I think AI has an incredible
+			potential to boost all kinds of scientific research. I mean just look at what
+			<a href="https://www.deepmind.com/" class="link">DeepMind</a>
+			is already achieving with
+			<a class="link" href="https://www.deepmind.com/research/highlighted-research/alphafold"
+				>AlphaFold</a
+			>
+			for example. Now back to the important things though: I LOVE How I Met Your Mother 😊. For me it's
+			the single greatest piece of art ever created! You should watch it if you haven't already!
+			<br />
+			Oh and I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
+		</p>
+		<img class="rounded-full w-[340px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
 	</div>
-
-	<img class="rounded-full w-[340px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
-</div>
+</section>
 
 <h1>What am I doing with my life?</h1>
 <section>
