@@ -15,7 +15,7 @@
 <ul class="mt-4">
 	{#each links as link}
 		<li class="my-2">
-			<a href={link.href} class="flex items-center gap-2">
+			<a href={link.href} class="flex max-w-fit items-center gap-2">
 				{#if link.type === `github`}
 					<GitHub class="h-6 w-6 flex-shrink-0" />
 				{:else if link.type === `file`}
