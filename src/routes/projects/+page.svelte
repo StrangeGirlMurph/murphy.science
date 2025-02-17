@@ -29,6 +29,11 @@
 	<Links
 		links={[
 			{
+				name: `physica package for Typst | Repository`,
+				type: `github`,
+				href: `https://github.com/Leedehai/typst-physics`
+			},
+			{
 				name: `typst | Repository`,
 				type: `github`,
 				href: `https://github.com/typst/typst`

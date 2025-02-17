@@ -116,9 +116,8 @@
 				>AlphaFold</a
 			>
 			for example. Now back to the important things though: I LOVE How I Met Your Mother 😊. For me it's
-			the single greatest piece of art ever created! You should watch it if you haven't already!
-			<br />
-			Oh and I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
+			the single greatest piece of art ever created! You should watch it if you haven't already! Oh and
+			I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
 		</p>
 		<img class="rounded-full w-[340px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
 	</div>
