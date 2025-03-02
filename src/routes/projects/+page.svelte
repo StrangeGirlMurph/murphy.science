@@ -89,7 +89,7 @@
 </section>
 
 <h1>
-	<a href="/">murphy-in.space</a>
+	<a href="/">murphy.science</a>
 </h1>
 <section>
 	<p>
@@ -107,9 +107,9 @@
 	<Links
 		links={[
 			{
-				name: `murphy-in.space | Repository`,
+				name: `murphy.science | Repository`,
 				type: `github`,
-				href: `https://github.com/StrangeGirlMurph/murphy-in.space`
+				href: `https://github.com/StrangeGirlMurph/murphy.science`
 			}
 		]}
 	/>
