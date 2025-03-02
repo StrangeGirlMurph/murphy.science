@@ -179,9 +179,9 @@
 	<Links
 		links={[
 			{
-				href: `mailto:hello@murphy-in.space`,
+				href: `mailto:hello@murphy.science`,
 				type: `mail`,
-				name: `hello@murphy-in.space`
+				name: `hello@murphy.science`
 			}
 		]}
 	/>
