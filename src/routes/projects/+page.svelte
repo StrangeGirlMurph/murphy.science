@@ -12,6 +12,74 @@
 	<h2 class="subtitle">An overview of smaller side projects.</h2>
 </div>
 
+<h1>Self-hosting/Server</h1>
+<section>
+	<p>
+		Self-hosting different open-source services is something I am really interested in. I just
+		recently started and already learned a ton. My Free Oracle Cloud Server in Frankfurt named Atlas
+		has been running day and night without much trouble. I am using <a
+			class="link"
+			href="https://caddyserver.com/">Caddy</a
+		>
+		as a web server and using
+		<a class="link" href="https://nixos.org/">NixOS</a> as the operating system. Nix and
+		<a class="link" href="https://www.docker.com/">Docker</a>/<a
+			class="link"
+			href="https://docs.docker.com/compose/">Docker Compose</a
+		>
+		make it really easy to deploy services. Just look at what it takes to setup Audiobookshelf for example:
+		<a
+			class="link"
+			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
+			>NixOS Audiobookshelf Options</a
+		>.
+	</p>
+	<Links
+		links={[
+			{
+				name: `server.murphy.science | Homepage Dashboard`,
+				type: `link`,
+				href: `https://server.murphy.science`
+			},
+			{
+				name: `grafana.murphy.science | Grafana`,
+				type: `link`,
+				href: `https://grafana.murphy.science`
+			},
+			{
+				name: `cloud.murphy.science | Nextcloud AIO`,
+				type: `link`,
+				href: `https://cloud.murphy.science`
+			},
+			{
+				name: `git.murphy.science | Forgejo`,
+				type: `link`,
+				href: `https://git.murphy.science`
+			},
+			{
+				name: `spotify.murphy.science | Your Spotify`,
+				type: `link`,
+				href: `https://spotify.murphy.science`
+			},
+			{
+				name: `mastodon.murphy.science | Mastodon`,
+				type: `link`,
+				href: `https://mastodon.murphy.science`
+			},
+			{
+				name: `media.murphy.science | Jellyfin`,
+				type: `link`,
+				href: `https://media.murphy.science`
+			},
+			{
+				name: `audiobooks.murphy.science | Audiobookshelf`,
+				type: `link`,
+				href: `https://audiobooks.murphy.science`
+			}
+		]}
+	/>
+</section>
+
 <h1>Open-Source Contributions</h1>
 <section>
 	<p>
