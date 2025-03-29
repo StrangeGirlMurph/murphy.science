@@ -30,9 +30,7 @@
 
 <div class="flex flex-col items-center" style="min-height:100vh; min-height: 100svh;">
 	<div class="h-[5px] rainbow-bg w-full" />
-	<div
-		class="p-2 sm:p-4 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl"
-	>
+	<div class="p-4 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl">
 		<Header />
 		<main class="grow max-w-screen-xl flex flex-col justify-start">
 			<slot />
