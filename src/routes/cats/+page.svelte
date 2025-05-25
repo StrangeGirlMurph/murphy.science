@@ -18,10 +18,12 @@
 			<img
 				class="max-h-[60vh] rounded-sm shadow-md"
 				src={data['urls']['regular']}
-				alt={data['alt_description']}
+				alt={data['alt_description'] ??
+					data['description'] ??
+					'No description was provided by the creator. Sorry. I am sure the next one will have one! Please reload.'}
 			/>
 		</a>
-		<div class="m-1">
+		<div class="mt-1">
 			Photo by <a class="link" href={data['user']['links']['html']}>{data['user']['name']}</a> on
 			<a class="hover:underline" href="https://unsplash.com/">Unsplash</a>
 		</div>
