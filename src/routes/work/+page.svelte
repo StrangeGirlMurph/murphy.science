@@ -13,27 +13,27 @@
 	<h2 class="subtitle">An overview of my rather serious work.</h2>
 </div>
 
-<h1>Obsidian Wikipedia Search Plugin</h1>
+<h1>Obsidian Wikipedia Helper Plugin</h1>
 <section>
 	<p>
 		A plugin for the note taking app <a class="link" href="https://obsidian.md/">Obsidian</a> that
 		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search,
-		link and open Wikipedia articles directly in their notes from within the app. I built it because
-		I was looking for that functionality myself when writing about scientific stuff. It just makes
-		it so much more convenient to gather knowledge. The plugin is available in the community plugin
-		list and has in total {data['downloads'] ?? 'over 14000'} downloads.
+		link, insert and open Wikipedia/Wikimedia articles directly in their notes from within the app.
+		I built it because I was looking for that functionality myself when writing about scientific
+		stuff. It just makes it so much more convenient to gather knowledge. The plugin is available in
+		the community plugin list and has in total {data['downloads'] ?? 'over 14000'} downloads.
 	</p>
 	<Links
 		links={[
 			{
-				name: `obsidian-wikipedia-search | Repository`,
+				name: `obsidian-wikipedia-helper | Repository`,
 				type: `github`,
-				href: `https://github.com/StrangeGirlMurph/obsidian-wikipedia-search`
+				href: `https://github.com/StrangeGirlMurph/obsidian-wikipedia-helper`
 			},
 			{
-				name: `Wikipedia Search Documentation | Website`,
+				name: `Wikipedia Helper Documentation | Website`,
 				type: `link`,
-				href: `https://strangegirlmurph.github.io/obsidian-wikipedia-search/`
+				href: `https://strangegirlmurph.github.io/obsidian-wikipedia-helper/`
 			}
 		]}
 	/>
