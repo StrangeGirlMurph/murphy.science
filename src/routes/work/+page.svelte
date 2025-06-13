@@ -33,7 +33,7 @@
 			{
 				name: `Wikipedia Helper Documentation | Website`,
 				type: `link`,
-				href: `https://strangegirlmurph.github.io/obsidian-wikipedia-helper/`
+				href: `https://wikipedia-helper.murphy.science/`
 			}
 		]}
 	/>
