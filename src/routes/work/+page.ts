@@ -1,7 +1,7 @@
 /** @type {import('./$types').PageLoad} */
 export async function load() {
 	const res = await fetch(
-		'https://api.github.com/repos/StrangeGirlMurph/obsidian-wikipedia-search/releases'
+		'https://api.github.com/repos/StrangeGirlMurph/obsidian-wikipedia-helper/releases'
 	);
 
 	const json = await res.json().catch((err) => undefined);
