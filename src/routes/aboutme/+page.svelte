@@ -59,7 +59,7 @@
 			{ name: 'Unity', icon: 'unity/unity-original' },
 			{ name: 'Google Cloud', icon: 'googlecloud/googlecloud-original' },
 			{ name: 'Firebase', icon: 'firebase/firebase-plain' },
-			{ name: 'SQLite', icon: 'sqlite/sqlite-original.svg' },
+			{ name: 'SQLite', icon: 'sqlite/sqlite-original' },
 			{ name: 'Vercel', icon: 'vercel/vercel-original' },
 			{ name: 'Gimp', icon: 'gimp/gimp-original' }
 		],
