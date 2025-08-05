@@ -31,7 +31,7 @@
 			class="link"
 			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
 			>NixOS Audiobookshelf Options</a
-		>. I host the following stuff for now:
+		>. I host the following stuff and some other:
 	</p>
 	<Links
 		links={[
@@ -66,9 +66,9 @@
 				href: `https://mastodon.murphy.science`
 			}, */
 			{
-				name: `media.murphy.science | Jellyfin`,
+				name: `stream.murphy.science | Jellyfin`,
 				type: `link`,
-				href: `https://media.murphy.science`
+				href: `https://stream.murphy.science`
 			},
 			{
 				name: `audiobooks.murphy.science | Audiobookshelf`,
