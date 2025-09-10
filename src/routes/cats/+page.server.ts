@@ -1,4 +1,3 @@
-import { get } from "svelte/store";
 import data from "../../../static/infinite-cat-supply.json";
 
 export async function load() {
