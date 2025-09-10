@@ -75,12 +75,11 @@
 		wrote it in my second uni semester but to read and understand it only a bit of mathematical
 		notation is required to understand it. It's highly influenced by <a
 			href="https://www.youtube.com/@3blue1brown"
-			class="link">3Blue1Brown</a
-		>s incredible videos on the topic! My personal highlight of the article is the section covering
-		and showing the bifurcation diagram of the logistic map hiding in the Mandelbrot set plotted in
-		three dimensions. Don't worry these terms don't have to mean anything to you right now. Just
-		start reading and dive into the wonderful, beautiful, fascinating and weird world of fractal
-		geometry!
+			class="link">3Blue1Browns</a
+		> incredible videos on the topic! My personal highlight of the article is the section covering and
+		showing the bifurcation diagram of the logistic map hiding in the Mandelbrot set plotted in three
+		dimensions. Don't worry these terms don't have to mean anything to you right now. Just start reading
+		and dive into the wonderful, beautiful, fascinating and weird world of fractal geometry!
 	</p>
 	<Links
 		links={[
