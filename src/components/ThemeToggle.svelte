@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ThemeLightDark from 'svelte-material-icons/ThemeLightDark.svelte';
+	import ThemeLightDark from './icons/ThemeLightDark.svelte';
 	import { onMount } from 'svelte';
 
 	let dark: boolean;
@@ -53,5 +53,5 @@
 </svelte:head>
 
 <button on:click={toggle}>
-	<ThemeLightDark class="h-7 w-7" />
+	<ThemeLightDark className="h-7 w-7" />
 </button>
