@@ -1,7 +1,7 @@
-import data from "../../../static/infinite-cat-supply.json";
+import data from '../../../static/infinite-cat-supply.json';
 
 export async function load() {
-    return getCat();
+	return getCat();
 }
 
 /** @type {import('./$types').Actions} */
@@ -12,6 +12,6 @@ export const actions = {
 };
 
 function getCat() {
-    const cats = data as any[];
-    return cats[Math.floor(Math.random()*cats.length)];
+	const cats = data as any[];
+	return cats[Math.floor(Math.random() * cats.length)];
 }
