@@ -1,4 +1,4 @@
-<script setup>
+<script>
 	import { page } from '$app/stores';
 	import GitHub from 'svelte-material-icons/Github.svelte';
 	import Menu from 'svelte-material-icons/Menu.svelte';
