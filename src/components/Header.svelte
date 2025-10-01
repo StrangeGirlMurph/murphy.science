@@ -1,8 +1,9 @@
 <script>
 	import { page } from '$app/stores';
-	import GitHub from 'svelte-material-icons/Github.svelte';
-	import Menu from 'svelte-material-icons/Menu.svelte';
-	import MenuOpen from 'svelte-material-icons/MenuOpen.svelte';
+	import Codeberg from './icons/Codeberg.svelte';
+	import GitHub from './icons/GitHub.svelte';
+	import Menu from './icons/Menu.svelte';
+	import MenuOpen from './icons/MenuOpen.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
 
 	export const menus = [
@@ -32,9 +33,9 @@
 				}}
 			>
 				{#if menuOpen}
-					<MenuOpen class="h-8 w-8" />
+					<MenuOpen className="h-7 w-7" />
 				{:else}
-					<Menu class="h-8 w-8" />
+					<Menu className="h-7 w-7" />
 				{/if}
 			</button>
 		</div>
@@ -66,7 +67,17 @@
 						menuOpen = false;
 					}}
 				>
-					<GitHub class="h-8 w-8" />
+					<GitHub className="h-7 w-7" />
+				</a>
+
+				<a
+					href="https://codeberg.org/StrangeGirlMurph"
+					class="inline-block"
+					on:mouseup={() => {
+						menuOpen = false;
+					}}
+				>
+					<Codeberg className="h-7 w-7" />
 				</a>
 				<ThemeToggle />
 			</li>
