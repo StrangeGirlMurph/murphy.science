@@ -14,8 +14,8 @@ function scrambleAge(): string {
 	const today = new Date();
 	const age = (today.getTime() - birthDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
 
-	// Max offset from 1/4 months up to 2 months 
-	const randomMaxOffset = (1/4)/12 +  (Math.random() * 7/4) / 12;
+	// Max offset between 1/4 and 2 months 
+	const randomMaxOffset = (1/4)/12 + (Math.random() * 7/4) / 12;
 	// Random offset between -maxOffset and +maxOffset
 	const randomOffset = (Math.random() - 0.5) * 2 * randomMaxOffset;
 	const scrambledAge = age + randomOffset;
