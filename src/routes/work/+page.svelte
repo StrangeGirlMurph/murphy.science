@@ -13,6 +13,26 @@
 	<h2 class="subtitle">An overview of my rather serious work.</h2>
 </div>
 
+<h1>Server Charms</h1>
+<section>
+	<p>
+		A beginner-friendly manual for a Server Charm. A portable device that creates its own Wi-Fi
+		network and hosts a website for curious people around you! An everyday companion/portable
+		easteregg. The manual is quite extensive with a big glossary. It also covers fun mods for the
+		Basic Server Charm. It's meant to be a fun maker project for beginners and experienced people.
+		The product is also just really cool.
+	</p>
+	<Links
+		links={[
+			{
+				name: `Server-Charms | Repository`,
+				type: `codeberg`,
+				href: `https://codeberg.org/StrangeGirlMurph/Server-Charms`
+			}
+		]}
+	/>
+</section>
+
 <h1>Obsidian Wikipedia Helper Plugin</h1>
 <section>
 	<p>

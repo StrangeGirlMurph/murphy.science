@@ -12,6 +12,28 @@
 	<h2 class="subtitle">An overview of smaller side projects.</h2>
 </div>
 
+<h1>OpenStreetMap</h1>
+<section>
+	<p>
+		Since October 2025 I am <em>really</em> addicted to mapping for the
+		<a href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</a>. It's just soo much fun. A
+		video game that benifits the world really. It really tickles my brain in the right way. I can
+		highly recommed trying it yourself! Simply visit
+		<a href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit" button,
+		create an account and start mapping! The iD editor gives you a quick and easy introduction and
+		is very easy to use :)
+	</p>
+	<Links
+		links={[
+			{
+				name: `OSM Profile`,
+				type: `link`,
+				href: `https://www.openstreetmap.org/user/StrangeGirlMurph`
+			}
+		]}
+	/>
+</section>
+
 <h1>Self-hosting/Server</h1>
 <section>
 	<p>
@@ -31,49 +53,14 @@
 			class="link"
 			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
 			>NixOS Audiobookshelf Options</a
-		>. I host the following stuff and some other:
+		>. My dashboard lists every service I am hosting:
 	</p>
 	<Links
 		links={[
 			{
-				name: `server.murphy.science | Homepage Dashboard`,
+				name: `server.murphy.science | Dashboard`,
 				type: `link`,
 				href: `https://server.murphy.science`
-			},
-			/* {
-				name: `grafana.murphy.science | Grafana`,
-				type: `link`,
-				href: `https://grafana.murphy.science`
-			}, */
-			{
-				name: `cloud.murphy.science | Nextcloud AIO`,
-				type: `link`,
-				href: `https://cloud.murphy.science`
-			},
-			/* {
-				name: `git.murphy.science | Forgejo`,
-				type: `link`,
-				href: `https://git.murphy.science`
-			}, */
-			{
-				name: `spotify.murphy.science | Your Spotify`,
-				type: `link`,
-				href: `https://spotify.murphy.science`
-			},
-			/* {
-				name: `mastodon.murphy.science | Mastodon`,
-				type: `link`,
-				href: `https://mastodon.murphy.science`
-			}, */
-			{
-				name: `stream.murphy.science | Jellyfin`,
-				type: `link`,
-				href: `https://stream.murphy.science`
-			},
-			{
-				name: `audiobooks.murphy.science | Audiobookshelf`,
-				type: `link`,
-				href: `https://audiobooks.murphy.science`
 			}
 		]}
 	/>
