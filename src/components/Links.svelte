@@ -4,11 +4,12 @@
 	import FilePdf from './icons/FilePdf.svelte';
 	import Email from './icons/Email.svelte';
 	import Link from './icons/Link.svelte';
+	import Codeberg from './icons/Codeberg.svelte';
 
 	export let links: {
 		name: string;
 		href: string;
-		type: 'github' | 'link' | 'pdf' | 'mail' | 'file';
+		type: 'github' | 'codeberg' | 'link' | 'pdf' | 'mail' | 'file';
 	}[];
 </script>
 
@@ -18,6 +19,8 @@
 			<a href={link.href} class="flex max-w-fit items-center gap-2">
 				{#if link.type === `github`}
 					<GitHub className="h-6 w-6 flex-shrink-0" />
+				{:else if link.type === `codeberg`}
+					<Codeberg className="h-6 w-6 flex-shrink-0" />
 				{:else if link.type === `file`}
 					<FileDocument className="h-6 w-6 flex-shrink-0" />
 				{:else if link.type === `pdf`}
