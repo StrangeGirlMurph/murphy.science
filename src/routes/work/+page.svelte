@@ -20,7 +20,9 @@
 		network and hosts a website for curious people around you! An everyday companion/portable
 		easteregg. The manual is quite extensive with a big glossary. It also covers fun mods for the
 		Basic Server Charm. It's meant to be a fun maker project for beginners and experienced people.
-		The product is also just really cool.
+		The product is also just really cool. Based on the manual I organized a workshop in a local <a
+			href="https://en.wikipedia.org/wiki/FLINTA*">FLINTA</a
+		> hackspace in Berlin.
 	</p>
 	<Links
 		links={[
@@ -28,6 +30,11 @@
 				name: `Server-Charms | Repository`,
 				type: `codeberg`,
 				href: `https://codeberg.org/StrangeGirlMurph/Server-Charms`
+			},
+			{
+				name: `Manual`,
+				type: `pdf`,
+				href: `https://codeberg.org/StrangeGirlMurph/Server-Charms/raw/branch/main/Manual.pdf`
 			}
 		]}
 	/>
