@@ -12,7 +12,7 @@
 	<h2 class="subtitle">My uni history and some resources for my fellow students.</h2>
 </div>
 
-<h1>Scientific Knowledge Base (<i>Coming Soon™</i>)</h1>
+<!-- <h1>Scientific Knowledge Base (<i>Coming Soon™</i>)</h1>
 <section>
 	<p>
 		During my studies I take a lot of notes. All these notes and everything else I learn ends up in
@@ -22,10 +22,10 @@
 		<a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 			CC BY-NC-SA 4.0 License</a
 		>. The vault is basically my own little Wikipedia with all the definitions, concepts, theorems
-		and so on I learn. <!-- Because it's all written in German mostly my fellow students from Uni and
-		maybe some other German speaking people will find it useful and get something out of it. -->
+		and so on I learn. <!- - Because it's all written in German mostly my fellow students from Uni and
+		maybe some other German speaking people will find it useful and get something out of it. - ->
 	</p>
-	<!-- <Links
+	<!- - <Links
 		links={[
 			{
 				name: `Knowledge-Base | Repository`,
@@ -33,8 +33,8 @@
 				href: `https://github.com/StrangeGirlMurph/Knowledge-Base`
 			}
 		]}
-	/> -->
-</section>
+	/> - ->
+</section> -->
 
 <h1>History</h1>
 <section>
@@ -44,7 +44,7 @@
 		Just not all of them and my bachelor is longer. Before I started this bachelor I studied
 		Computer Science & Computational Science somewhere else for a year. It allowed me to take
 		courses on physics and cognitive neurosciences but it was just too applied and tbh too easy for
-		me. Plus I wanted more and serious math. Not just math for cs.
+		me. Plus I wanted more and serious math. Not just math for computer science.
 	</p>
 </section>
 
