@@ -9,7 +9,7 @@
 
 <div class="heading">
 	<h1 class="title">Side Projects</h1>
-	<h2 class="subtitle">An overview of smaller side projects.</h2>
+	<h2 class="subtitle">An overview of my side projects in no particular order.</h2>
 </div>
 
 <h1>OpenStreetMap</h1>
@@ -21,7 +21,7 @@
 		highly recommed trying it yourself! Simply visit
 		<a href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit" button,
 		create an account and start mapping! The iD editor gives you a quick and easy introduction and
-		is very easy to use :)
+		is very easy to use :) Sadly it's not easy to make time for it :(
 	</p>
 	<Links
 		links={[
@@ -29,38 +29,6 @@
 				name: `OSM Profile`,
 				type: `link`,
 				href: `https://www.openstreetmap.org/user/StrangeGirlMurph`
-			}
-		]}
-	/>
-</section>
-
-<h1>Self-hosting/Server</h1>
-<section>
-	<p>
-		Self-hosting different open-source services is something I am really interested in. I just
-		recently started and already learned a ton. My Beelink S12 Pro Mini at home has been running day
-		and night without much trouble. I am using <a class="link" href="https://caddyserver.com/"
-			>Caddy</a
-		>
-		as a reverse proxy and using
-		<a class="link" href="https://nixos.org/">NixOS</a> as the operating system. Nix and
-		<a class="link" href="https://www.docker.com/">Docker</a>/<a
-			class="link"
-			href="https://docs.docker.com/compose/">Docker Compose</a
-		>
-		make it really easy to deploy services. Just look at what it takes to setup Audiobookshelf for example:
-		<a
-			class="link"
-			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
-			>NixOS Audiobookshelf Options</a
-		>. My dashboard lists every service I am hosting:
-	</p>
-	<Links
-		links={[
-			{
-				name: `server.murphy.science | Dashboard`,
-				type: `link`,
-				href: `https://server.murphy.science`
 			}
 		]}
 	/>
@@ -111,6 +79,76 @@
 				name: `enmap | Repository`,
 				type: `github`,
 				href: `https://github.com/eslachance/enmap`
+			}
+		]}
+	/>
+</section>
+
+<h1>Self-hosting on my Server</h1>
+<section>
+	<p>
+		Self-hosting different open-source services is something I am really interested in. I just
+		recently started and already learned a ton. My Beelink S12 Pro Mini at home has been running day
+		and night without much trouble. I am using <a class="link" href="https://caddyserver.com/"
+			>Caddy</a
+		>
+		as a reverse proxy and using
+		<a class="link" href="https://nixos.org/">NixOS</a> as the operating system. Nix and
+		<a class="link" href="https://www.docker.com/">Docker</a>/<a
+			class="link"
+			href="https://docs.docker.com/compose/">Docker Compose</a
+		>
+		make it really easy to deploy services. Just look at what it takes to setup Audiobookshelf for example:
+		<a
+			class="link"
+			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
+			>NixOS Audiobookshelf Options</a
+		>. My dashboard lists every service I am hosting (pls don't hack or DDoS me 🥺):
+	</p>
+	<Links
+		links={[
+			{
+				name: `server.murphy.science | Dashboard`,
+				type: `link`,
+				href: `https://server.murphy.science`
+			}
+		]}
+	/>
+</section>
+
+<h1>Operating Systems</h1>
+<section>
+	<p>
+		My journey with different operating systems was quite a long one. On mobile I started with iOS
+		on the Apple iPod touch then continued with Samsungs Android for about 6/7 years and then for 5
+		years with Pixels Android until the end of 2025 when I switched to Graphene OS on my Pixel 4a
+		(still a great phone). My migration to Graphene OS came with a lot of work on my server
+		infrastructure and degoogling (see above). On desktop I started out with MacOS for about 5
+		years, then switched to Windows in 2020 until I eventually switched to Linux. First to Arch
+		Linux at the end of 2022 and then to NixOS at the end of 2024. I tried using Hyprland but wasn't
+		happy with it so I just sticked with KDE Plasma. The switch to NixOS and making basically my
+		whole configuration declarative was quite the effort. It took me basically forever to switch but
+		it was worth it. Linux is the best! On my Laptop I have a dual-boot system with Windows for rare
+		cases where I need PowerPoint, Zoom or a projection working without complications. On my PC I
+		have a system with my original Windows 11, Arch Linux and NixOS System. I also have a boot
+		option for another linux system to play around with. Storage is so cheap these days and over
+		countless reinstalls I've became quite good at managing multi-boot systems. Even though I
+		finished the major act of switching to Graphene OS and from Arch to NixOS these systems are
+		still evolving and I enjoy tinkering on them. That's why they are still kind of an open project
+		even though using them has become a rather boring default (that's a good think! things should
+		just work!).
+	</p>
+	<Links
+		links={[
+			{
+				name: `NixOS`,
+				type: `link`,
+				href: `https://nixos.org/`
+			},
+			{
+				name: `Graphene OS`,
+				type: `link`,
+				href: `https://grapheneos.org/`
 			}
 		]}
 	/>
