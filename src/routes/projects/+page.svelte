@@ -16,12 +16,12 @@
 <section>
 	<p>
 		Since October 2025 I am <em>really</em> addicted to mapping for the
-		<a href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</a>. It's just soo much fun. A
-		video game that benifits the world really. It really tickles my brain in the right way. I can
-		highly recommed trying it yourself! Simply visit
-		<a href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit" button,
-		create an account and start mapping! The iD editor gives you a quick and easy introduction and
-		is very easy to use :) Sadly it's not easy to make time for it :(
+		<a class="link" href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</a>. It's just
+		soo much fun. A video game that benifits the world really. It really tickles my brain in the
+		right way. I can highly recommed trying it yourself! Simply visit
+		<a class="link" href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit"
+		button, create an account and start mapping! The iD editor gives you a quick and easy
+		introduction and is very easy to use :) Sadly it's not easy to make time for it :(
 	</p>
 	<Links
 		links={[
@@ -43,13 +43,16 @@
 			class="link"
 			href="https://wikipedia.org">Wikipedia</a
 		>
-		when I notice something is wrong (<a
-			class="link"
-			href="https://en.wikipedia.org/wiki/User:StrangeGirlMurph">Wiki Userpage</a
-		>). (Software) projects I contributed to (wrote code for) (the list of issues is much longer):
+		when I notice something is wrong. (Software) projects I contributed to (wrote code for) (the list
+		of issues is much longer):
 	</p>
 	<Links
 		links={[
+			{
+				name: `tootpick.org | Repository`,
+				type: `github`,
+				href: `https://github.com/Juerd/tootpick`
+			},
 			{
 				name: `physica package for Typst | Repository`,
 				type: `github`,
@@ -89,9 +92,7 @@
 	<p>
 		Self-hosting different open-source services is something I am really interested in. I just
 		recently started and already learned a ton. My Beelink S12 Pro Mini at home has been running day
-		and night without much trouble. I am using <a class="link" href="https://caddyserver.com/"
-			>Caddy</a
-		>
+		and night without trouble. I am using <a class="link" href="https://caddyserver.com/">Caddy</a>
 		as a reverse proxy and using
 		<a class="link" href="https://nixos.org/">NixOS</a> as the operating system. Nix and
 		<a class="link" href="https://www.docker.com/">Docker</a>/<a
@@ -103,7 +104,8 @@
 			class="link"
 			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
 			>NixOS Audiobookshelf Options</a
-		>. My dashboard lists every service I am hosting (pls don't hack or DDoS me 🥺):
+		>. I finally got to ditch Google Drive and Google Photos! My dashboard lists every service I am
+		hosting (pls don't hack or DDoS me 🥺):
 	</p>
 	<Links
 		links={[
@@ -158,11 +160,13 @@
 <section>
 	<p>
 		As I mentioned in the context of Jambo on the <a class="link" href="/work">work page</a>, I am
-		part of Discord server where we do monthly coding jams. From there and just my every day life I
-		have a whole repository full of small projects like riddles, challenges and all kinds of
-		thingies. For example do I like to participate in the Advent of Code every year or do something
-		fun for the Pi-Day. Most of the projects are not finished nor polished at all 🙃 And that's
-		okay! This is my having fun repository.
+		part of an international Discord server where we do monthly coding jams/hackathons. From there
+		and just my every day life I have a whole repository full of small projects like riddles,
+		challenges and all kinds of thingies. I like to participate in the Advent of Code every year or
+		do something fun for the Pi-Day for example and I get a lot of inspiration from YouTube. Most of
+		the projects are not finished nor polished at all 🙃 And that's okay! This is my having fun
+		repository. Sadly with everything else in our lifes we barely find the time to stick to our
+		monthly schedule on the server anymore. We're now all busy with university or work.
 	</p>
 	<Links
 		links={[
@@ -171,11 +175,6 @@
 				type: `github`,
 				href: `https://github.com/StrangeGirlMurph/CodingProjects`
 			}
-			/* {
-				name: `Coding-Jams | Repository`,
-				type: `github`,
-				href: `https://github.com/Cowoding-Jams/Coding-Jams`
-			} */
 		]}
 	/>
 </section>
@@ -191,10 +190,11 @@
 		>, <a class="link" href="https://tailwindcss.com/">Tailwind</a> and deployed it with
 		<a class="link" href="https://vercel.com/">Vercel</a>. First I tried using
 		<a href="https://fresh.deno.dev/" class="link">Fresh</a>, Deno and Deno Deploy because I fell in
-		love with Deno but I am just way too new to web development and wasn't up for it. Then I used
+		love with Deno but I was just way too new to web development and wasn't up for it. Then I used
 		<a href="https://nuxt.com/" class="link">Nuxt</a> but it wasn't a good fit either. I really don't
 		like web development but it's kinda just what you have to learn in order to built things like this...
-		I am pretty happy with SvelteKit now though :)
+		I am pretty happy with SvelteKit now though :) I also have a private wiki about me for friends and
+		another personal website for projects like birthday presents. Both of them are password protected.
 	</p>
 	<Links
 		links={[

@@ -10,8 +10,7 @@
 		{ name: 'Home', href: '/' },
 		{ name: 'About Me', href: '/aboutme' },
 		{ name: 'Work', href: '/work' },
-		{ name: 'Side Projects', href: '/projects' },
-		{ name: 'University', href: '/university' }
+		{ name: 'Side Projects', href: '/projects' }
 	];
 
 	let menuOpen = false;

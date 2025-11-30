@@ -89,7 +89,7 @@
 
 <div class="heading">
 	<h1 class="title">About Me</h1>
-	<h2 class="subtitle">Learn a bit about me as a person.</h2>
+	<h2 class="subtitle">Learn a bit about me and my goals in life.</h2>
 </div>
 
 <h1>Who am I?</h1>
@@ -97,21 +97,22 @@
 	<div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
 		<p>
 			In a nutshell I am a young, left and queer girl called Murphy. I am about {data.birthday} old.
-			I go by she/her pronouns but they/them pronouns are also fine. I live in a great city somewhere
-			on planet Earth (hint: CET). I love to learn and some of my greatest strengths are my ability to
-			be very disciplined when I need and want to be, my empathy, my pride and my incredible motivation
-			to save this world. In May 2020 I built my first computer (named
+			I go by she pronouns. I live in a great city somewhere on planet Earth (hint: CET). I love to learn
+			and some of my greatest strengths are my ability to be very disciplined when I need and want to
+			be, my empathy, my autism and my incredible motivation to save this world. In May 2020 I built
+			my first computer (named
 			<a href="https://interstellarfilm.fandom.com/wiki/TARS" class="link">TARS</a>). Since then my
-			knowledge has basically increased exponentially and I learned a ton about science and
-			specifically computer science and just never stopped. My true passion is physics. I had an
-			amazing physics teacher in school and learned so much from him. There is too much pain and
-			suffering in the world though for me to just follow my passion and learn about some particles
-			which are so small that no one will ever be able to see them. That's why I am dedicating a lot
-			of my attention towards computer science instead. I can do a lot more relevant for the world
-			with software then I could with studying quantum mechanics. And I think AI has an incredible
-			potential to boost all kinds of scientific research. I mean just look at what
+			knowledge has basically grown exponentially and I learned a ton about science and specifically
+			computer science and just never stopped. My true passion is physics. I had an amazing physics
+			teacher in school and learned so much from him. Sadly there is too much pain and suffering in
+			the world for me to just follow my passion and spend all my time uncovering the secrets of the
+			universe. That's why I am dedicating a lot of my attention towards computer science instead. I
+			can do a lot more relevant for the world with software then I could with studying quantum
+			mechanics. And I think AI has an incredible potential to boost all kinds of scientific
+			research. Note: I am not talking about generative AI. That sentence was written before LLMs
+			got here... I mean just look at what
 			<a href="https://www.deepmind.com/" class="link">DeepMind</a>
-			is already achieving with
+			is achieving with
 			<a class="link" href="https://www.deepmind.com/research/highlighted-research/alphafold"
 				>AlphaFold</a
 			>
@@ -119,7 +120,7 @@
 			the single greatest piece of art ever created! You should watch it if you haven't already! Oh and
 			I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
 		</p>
-		<img class="rounded-full w-[340px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
+		<img class="rounded-full w-[300px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
 	</div>
 </section>
 
@@ -142,13 +143,37 @@
 	</p>
 </section>
 
+<h1>University</h1>
+<section>
+	<p>
+		I am currently studying Computer Science, Mathematics & Physics at University. It's a
+		challenging combination of all three disciplines. I am having the same courses as the regular
+		math/physics/cs students. Just not all of them and my bachelor is longer. Before I started this
+		bachelor I studied Computer Science & Computational Science somewhere else for a year. It
+		allowed me to take courses on physics and cognitive neurosciences but it was just too applied
+		and tbh too easy for me. Plus I wanted more and serious math. Not just math for computer
+		science. I don't worry too much about my university grades. I don't want nor need the fanciest
+		education and high paying jobs in the world. Neither do I want to work in the academic field. I
+		want to solve real world problems not end up in fundamental research. I want to help people and
+		save the world. That's why I decided I'd rather work on useful and impressive projects during my
+		studies that directly benefit humanity than spend my time endlessly studying for exams and
+		memorizing things I can always just look up later. A GitHub profile with useful code is more
+		important to me than some number on a piece of paper. Nonetheless I do have quite good grades
+		(especially in computer science) and also have a scholarship. And don't get me wrong! I am very
+		ambitions when it comes to learning and actually understanding the concepts in my bachelor and
+		working towards being able to use that knowledge whenever I need it.
+	</p>
+</section>
+
 <h1>Skills</h1>
 <section>
 	<p>
 		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc. I
-		roughly categorized them and tried to sort them by type. This is a only a portion of them
-		though. They are limited by the icons I found on <a href="https://devicon.dev/" class="link"
-			>Devicon</a
+		roughly categorized them by how confident I am in using them and tried to sort them a bit by
+		type in each category. This is just a small overview so you can get a sense of what I am working
+		with. Not that this is a only a portion of them though. They are limited by the icons I found on <a
+			href="https://devicon.dev/"
+			class="link">Devicon</a
 		> 🙃
 	</p>
 	{#each ['I am good with', 'I am okay with', 'I came in contact with'] as title, index}
@@ -157,7 +182,7 @@
 			{#each skills[index] as skill}
 				<img
 					src="{deviconCDN}{skill.icon}.svg"
-					class="w-11 inline-block drop-shadow-sm dark:drop-shadow-[0px_0px_0.8px_rgba(180,180,180,0.6)]"
+					class="w-11 inline-block drop-shadow-sm dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.6)]"
 					title={skill.name}
 					alt={skill.name}
 				/>
@@ -169,12 +194,13 @@
 <h1>Contact me</h1>
 <section>
 	<p>
-		If you want to contact me, you can do so via email. You can also try some other ways like the
-		discussions tab on my GitHub README Repo <a
-			class="link"
-			href="https://github.com/StrangeGirlMurph/StrangeGirlMurph/discussions">here</a
-		>. You'll find a way. When you do so please introduce yourself and tell me a bit about yourself
-		that I know who I am talking to. I am always happy to get some feedback.
+		If you want to contact me, you can do so via email. If you wanna learn more about one of my
+		projects, have some feedback or whatever it may be. I actually enjoy email and I am happy to
+		hear from you :) You can also try some other ways like the discussions tab on my GitHub README
+		Repo <a class="link" href="https://github.com/StrangeGirlMurph/StrangeGirlMurph/discussions"
+			>here</a
+		>. You'll find a way. When you do so please introduce yourself a bit that I roughly know who I
+		am talking to and what the context is.
 	</p>
 	<Links
 		links={[
