@@ -204,7 +204,7 @@
 	<Links
 		links={[
 			{
-				name: `Präsentation | (.pptx)`,
+				name: `Präsentation | (.pptx) (about 1.2GB)`,
 				type: `file`,
 				href: `/work/5.PK Präsentation.pptx`
 			},
