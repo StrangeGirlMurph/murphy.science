@@ -14,7 +14,7 @@
 
 <div class="grow flex flex-col items-center justify-center max-h-full my">
 	<div>
-		<a href={data['links']['html']}>
+		<a href={data['links']['html']} aria-label="View photo on Unsplash">
 			<img
 				class="max-h-[60vh] rounded-sm shadow-md"
 				src={data['urls']['regular']}
@@ -30,6 +30,8 @@
 	</div>
 
 	<form method="post">
-		<button class="mt-4 link"> <b><i>MORE CATS!</i></b></button>
+		<button type="submit" class="mt-4 link" aria-label="Load more cat photos">
+			<b><i>MORE CATS!</i></b>
+		</button>
 	</form>
 </div>

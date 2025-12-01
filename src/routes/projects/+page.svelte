@@ -9,10 +9,10 @@
 
 <div class="heading">
 	<h1 class="title">Side Projects</h1>
-	<h2 class="subtitle">An overview of my side projects in no particular order.</h2>
+	<p class="subtitle">An overview of my side projects in no particular order.</p>
 </div>
 
-<h1>OpenStreetMap</h1>
+<h2>OpenStreetMap</h2>
 <section>
 	<p>
 		Since October 2025 I am <em>really</em> addicted to mapping for the
@@ -34,7 +34,7 @@
 	/>
 </section>
 
-<h1>Open-Source Contributions</h1>
+<h2>Open-Source Contributions</h2>
 <section>
 	<p>
 		I am a big fan of open-source software and I try to contribute to projects whenever I got the
@@ -87,7 +87,7 @@
 	/>
 </section>
 
-<h1>Self-hosting on my Server</h1>
+<h2>Self-hosting on my Server</h2>
 <section>
 	<p>
 		Self-hosting different open-source services is something I am really interested in. I just
@@ -118,7 +118,7 @@
 	/>
 </section>
 
-<h1>Operating Systems</h1>
+<h2>Operating Systems</h2>
 <section>
 	<p>
 		My journey with different operating systems was quite a long one. On mobile I started with iOS
@@ -156,7 +156,7 @@
 	/>
 </section>
 
-<h1>Coding Projects & monthly Jams</h1>
+<h2>Coding Projects & monthly Jams</h2>
 <section>
 	<p>
 		As I mentioned in the context of Jambo on the <a class="link" href="/work">work page</a>, I am
@@ -179,9 +179,9 @@
 	/>
 </section>
 
-<h1>
+<h2>
 	<a href="/">murphy.science</a>
-</h1>
+</h2>
 <section>
 	<p>
 		I guess this website is also one of my side projects. I build it with <a

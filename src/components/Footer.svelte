@@ -29,13 +29,17 @@
 <footer class="flex flex-row gap-4 justify-between content-center items-center mt-8 w-full">
 	<div class="space-y-1">
 		Made by me the
-		<a href="https://github.com/StrangeGirlMurph" class="text-green hover:underline">
+		<a
+			href="https://github.com/StrangeGirlMurph"
+			class="text-green hover:underline"
+			aria-label="My GitHub Account"
+		>
 			StrangeGirlMurph
 		</a>
 		<div class="text-xs alt-color">
 			Copyright © 2025&nbsp;<span
 				aria-hidden="true"
-				class="absolute"
+				class="mr-0"
 				on:mouseenter={grow}
 				on:mouseleave={shrink}
 			>

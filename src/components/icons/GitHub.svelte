@@ -3,6 +3,8 @@
 </script>
 
 <svg
+	aria-hidden="true"
+	focusable="false"
 	class={className}
 	viewBox="1.6 1.6 21 21"
 	fill="currentColor"

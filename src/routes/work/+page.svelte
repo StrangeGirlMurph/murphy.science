@@ -10,10 +10,10 @@
 
 <div class="heading">
 	<h1 class="title">Work</h1>
-	<h2 class="subtitle">An overview of my rather serious work.</h2>
+	<p class="subtitle">An overview of my rather serious work.</p>
 </div>
 
-<h1>Server Charms</h1>
+<h2>Server Charms</h2>
 <section>
 	<p>
 		A beginner-friendly manual for a Server Charm. A portable device that creates its own Wi-Fi
@@ -40,7 +40,7 @@
 	/>
 </section>
 
-<h1>Obsidian Wikipedia Helper Plugin</h1>
+<h2>Obsidian Wikipedia Helper Plugin</h2>
 <section>
 	<p>
 		A plugin for the note taking app <a class="link" href="https://obsidian.md/">Obsidian</a> that
@@ -68,7 +68,7 @@
 	/>
 </section>
 
-<h1>The Humane Software License</h1>
+<h2>The Humane Software License</h2>
 <section>
 	<p>
 		A software license to change the world! All the code I write and publish is in some way or
@@ -94,7 +94,7 @@
 	/>
 </section>
 
-<h1>Introduction to Fractals and Holomorphic Dynamics</h1>
+<h2>Introduction to Fractals and Holomorphic Dynamics</h2>
 <section>
 	<p>
 		An article I wrote for my university course "Scientific Computing in Mathematica". It is an
@@ -127,7 +127,7 @@
 	/>
 </section>
 
-<h1>Facial Landmark Detection</h1>
+<h2>Facial Landmark Detection</h2>
 <section>
 	<p>
 		A project on facial landmark detection on facecam input I did for my university course "Deep
@@ -157,7 +157,7 @@
 	/>
 </section>
 
-<h1>Jambo</h1>
+<h2>Jambo</h2>
 <section>
 	<p>
 		A Discord bot to manage a whole game jam/hackathon server from a fully functional poll system to
@@ -177,7 +177,7 @@
 	/>
 </section>
 
-<h1>HoleeBike</h1>
+<h2>HoleeBike</h2>
 <section>
 	<p>
 		A <a class="link" href="https://flutter.dev/">Flutter</a> app I developed as part of my school graduation

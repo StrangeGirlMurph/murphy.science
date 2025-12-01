@@ -85,14 +85,17 @@
 <svelte:head>
 	<title>About Me | Murphy</title>
 	<meta name="description" content="A little bit about me as a person." />
+	<!-- Preload LCP image -->
+	<link rel="preload" as="image" href="/profile-300.avif" type="image/avif" fetchpriority="high" />
+	<link rel="preload" as="image" href="/profile-300.webp" type="image/webp" fetchpriority="high" />
 </svelte:head>
 
 <div class="heading">
 	<h1 class="title">About Me</h1>
-	<h2 class="subtitle">Learn a bit about me and my goals in life.</h2>
+	<p class="subtitle">Learn a bit about me and my goals in life.</p>
 </div>
 
-<h1>Who am I?</h1>
+<h2>Who am I?</h2>
 <section>
 	<div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
 		<p>
@@ -120,11 +123,23 @@
 			the single greatest piece of art ever created! You should watch it if you haven't already! Oh and
 			I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
 		</p>
-		<img class="rounded-full w-[300px] mb-8 shadow-lg" src="/profile.png" alt="profile" />
+		<picture class="block flex-shrink-0">
+			<source srcset="/profile-300.avif" type="image/avif" />
+			<source srcset="/profile-300.webp" type="image/webp" />
+			<img
+				class="rounded-full w-[300px] h-auto mb-8 shadow-lg"
+				src="/profile.png"
+				alt="My avatar - A digital illustration of a cute character floating peacefully with their eyes closed against a dark background. The character has short white hair with a small flower clip, and wears a blue cape over a beige tunic. They are surrounded by golden sparkles and two translucent, glowing blue manta rays."
+				width="300"
+				height="300"
+				loading="eager"
+				fetchpriority="high"
+			/>
+		</picture>
 	</div>
 </section>
 
-<h1>What am I doing with my life?</h1>
+<h2>What am I doing with my life?</h2>
 <section>
 	<p>
 		I want to save the world and make it a better place. I want to fight the pain and suffering. I
@@ -143,7 +158,7 @@
 	</p>
 </section>
 
-<h1>University</h1>
+<h2>University</h2>
 <section>
 	<p>
 		I am currently studying Computer Science, Mathematics & Physics at University. It's a
@@ -165,7 +180,7 @@
 	</p>
 </section>
 
-<h1>Skills</h1>
+<h2>Skills</h2>
 <section>
 	<p>
 		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc. I
@@ -177,7 +192,7 @@
 		> 🙃
 	</p>
 	{#each ['I am good with', 'I am okay with', 'I came in contact with'] as title, index}
-		<h2 class="mt-4">{title}</h2>
+		<h3 class="mt-4">{title}</h3>
 		<div class="flex flex-row flex-wrap gap-4 justify-center my-5">
 			{#each skills[index] as skill}
 				<img
@@ -185,13 +200,16 @@
 					class="w-11 inline-block drop-shadow-sm dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.6)]"
 					title={skill.name}
 					alt={skill.name}
+					loading="lazy"
+					width="44"
+					height="44"
 				/>
 			{/each}
 		</div>
 	{/each}
 </section>
 
-<h1>Contact me</h1>
+<h2>Contact me</h2>
 <section>
 	<p>
 		If you want to contact me, you can do so via email. If you wanna learn more about one of my

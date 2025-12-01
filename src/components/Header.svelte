@@ -17,17 +17,35 @@
 </script>
 
 <header class="w-full mb-4">
-	<nav class="flex flex-col md:flex-row justify-between gap-4">
+	<nav class="flex flex-col md:flex-row justify-between gap-4" aria-label="Primary">
 		<div class="flex justify-between">
 			<div class="flex items-center gap-3 group min-w-fit">
-				<a href="https://ko-fi.com/murph" class="group-hover:animate-spin-slow">
-					<img src="/profile-25.png" alt="pfp" class="h-10 w-10 rounded-full shadow-lg" />
+				<a
+					href="https://ko-fi.com/murph"
+					class="group-hover:animate-spin-slow"
+					aria-label="Support me on Ko-fi"
+				>
+					<picture>
+						<source srcset="/profile-25-40.avif" type="image/avif" />
+						<source srcset="/profile-25-40.webp" type="image/webp" />
+						<img
+							src="/profile-25.png"
+							alt="My avatar - A digital illustration of a cute character floating peacefully with their eyes closed against a dark background. The character has short white hair with a small flower clip, and wears a blue cape over a beige tunic. They are surrounded by golden sparkles and two translucent, glowing blue manta rays."
+							class="h-10 w-10 rounded-full shadow-lg"
+							width="40"
+							height="40"
+							loading="eager"
+						/>
+					</picture>
 				</a>
 				<a href="/" class="text-2xl font-bold"> Murphy </a>
 			</div>
 			<button
 				class="md:hidden"
-				on:mouseup={() => {
+				aria-controls="primary-navigation"
+				aria-expanded={menuOpen}
+				aria-label="Toggle navigation"
+				on:click={() => {
 					menuOpen = !menuOpen;
 				}}
 			>
@@ -39,9 +57,11 @@
 			</button>
 		</div>
 		<ul
+			id="primary-navigation"
 			class="md:flex flex-wrap items-center gap-4 justify-center border-t-[1px] pt-4 md:border-t-0 md:pt-0 {!menuOpen
 				? 'hidden'
 				: 'flex'}"
+			aria-hidden={!menuOpen}
 		>
 			{#each menus as menu}
 				<li>
@@ -50,7 +70,7 @@
 						class="text-lg hover:underline text-center {menu.href === $page.route.id
 							? 'text-green'
 							: ''}"
-						on:mouseup={() => {
+						on:click={() => {
 							menuOpen = false;
 						}}
 					>
@@ -62,7 +82,8 @@
 				<a
 					href="https://github.com/StrangeGirlMurph"
 					class="hover:animate-rainbow inline-block"
-					on:mouseup={() => {
+					aria-label="My GitHub account (opens in same tab)"
+					on:click={() => {
 						menuOpen = false;
 					}}
 				>
@@ -72,7 +93,8 @@
 				<a
 					href="https://codeberg.org/StrangeGirlMurph"
 					class="inline-block"
-					on:mouseup={() => {
+					aria-label="My Codeberg account (opens in same tab)"
+					on:click={() => {
 						menuOpen = false;
 					}}
 				>

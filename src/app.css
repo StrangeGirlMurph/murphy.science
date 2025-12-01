@@ -18,6 +18,10 @@ h2 {
 	@apply text-2xl md:text-3xl my-2;
 }
 
+h3 {
+	@apply text-xl md:text-2xl my-2;
+}
+
 p {
 	@apply text-lg alt-color;
 }
@@ -89,6 +93,37 @@ body {
 			#ff4c55
 		);
 	}
+}
+
+/* Skip link styles - hidden by default, visible when focused */
+.skip-link {
+	position: absolute;
+	left: -9999px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+.skip-link:focus {
+	left: 1rem;
+	top: 1rem;
+	width: auto;
+	height: auto;
+	background: white;
+	color: black;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	z-index: 9999;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+:focus-visible {
+	outline: 3px solid #3b82f6; /* blue-500 */
+	outline-offset: 0px;
+}
+
+.dark :focus-visible {
+	outline-color: #60a5fa; /* blue-400 */
 }
 
 @keyframes rainbow-animation {

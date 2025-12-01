@@ -3,6 +3,8 @@
 </script>
 
 <svg
+	aria-hidden="true"
+	focusable="false"
 	class={className}
 	xmlns="http://www.w3.org/2000/svg"
 	fill="currentColor"

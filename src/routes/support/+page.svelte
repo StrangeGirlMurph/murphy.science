@@ -9,7 +9,7 @@
 
 <div class="heading">
 	<h1 class="title">Support Me</h1>
-	<h2 class="subtitle">Possibilities to support me and my work financially!</h2>
+	<p class="subtitle">Possibilities to support me and my work financially!</p>
 </div>
 
 <section>
@@ -21,7 +21,7 @@
 		<a href="https://ko-fi.com/murph" class="link"
 			>Ko-fi <img
 				src="https://storage.ko-fi.com/cdn/nav-logo-stroke.png"
-				alt="ko-fi logo"
+				alt="Ko-fi logo"
 				class="w-6 h-6 object-contain"
 			/></a
 		>
@@ -30,7 +30,7 @@
 		<a href="https://paypal.me/strangemurph" class="link"
 			>PayPal <img
 				src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg"
-				alt="paypal logo"
+				alt="PayPal logo"
 				class="w-5 h-5"
 			/></a
 		> give you the option to support my work financially and make my day with it. In general I mostly

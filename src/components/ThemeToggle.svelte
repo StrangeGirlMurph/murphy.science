@@ -52,6 +52,6 @@
 	</script>
 </svelte:head>
 
-<button on:click={toggle}>
+<button aria-pressed={dark} aria-label="Toggle color theme" on:click={toggle}>
 	<ThemeLightDark className="h-7 w-7" />
 </button>

@@ -11,7 +11,7 @@
 	<h1 class="title">
 		Error {$page.status}
 	</h1>
-	<h2 class="subtitle">
+	<p class="subtitle">
 		{$page.error?.message} :(
-	</h2>
+	</p>
 </div>
