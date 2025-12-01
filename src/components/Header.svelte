@@ -1,5 +1,5 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import Codeberg from './icons/Codeberg.svelte';
 	import GitHub from './icons/GitHub.svelte';
 	import Menu from './icons/Menu.svelte';
@@ -26,10 +26,10 @@
 					aria-label="Support me on Ko-fi"
 				>
 					<picture>
-						<source srcset="/profile-25-40.avif" type="image/avif" />
-						<source srcset="/profile-25-40.webp" type="image/webp" />
+						<source srcset="/profile-50.avif" type="image/avif" />
+						<source srcset="/profile-50.webp" type="image/webp" />
 						<img
-							src="/profile-25.png"
+							src="/profile-50.png"
 							alt="My avatar - A digital illustration of a cute character floating peacefully with their eyes closed against a dark background. The character has short white hair with a small flower clip, and wears a blue cape over a beige tunic. They are surrounded by golden sparkles and two translucent, glowing blue manta rays."
 							class="h-10 w-10 rounded-full shadow-lg"
 							width="40"
@@ -67,7 +67,7 @@
 				<li>
 					<a
 						href={menu.href}
-						class="text-lg hover:underline text-center {menu.href === $page.route.id
+						class="text-lg hover:underline text-center {menu.href === page.route.id
 							? 'text-green'
 							: ''}"
 						on:click={() => {
