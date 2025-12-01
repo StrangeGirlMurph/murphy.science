@@ -61,7 +61,7 @@
 			class="md:flex flex-wrap items-center gap-4 justify-center border-t-[1px] pt-4 md:border-t-0 md:pt-0 {!menuOpen
 				? 'hidden'
 				: 'flex'}"
-			aria-hidden={!menuOpen}
+			inert={!menuOpen}
 		>
 			{#each menus as menu}
 				<li>
