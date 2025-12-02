@@ -123,8 +123,8 @@
 	<p>
 		My journey with different operating systems was quite a long one. On mobile I started with iOS
 		on the Apple iPod touch then continued with Samsungs Android for about 6/7 years and then for 5
-		years with Pixels Android until the end of 2025 when I switched to Graphene OS on my Pixel 4a
-		(still a great phone). My migration to Graphene OS came with a lot of work on my server
+		years with Pixels Android until the end of 2025 when I switched to GrapheneOS on my Pixel 4a
+		(still a great phone). My migration to GrapheneOS came with a lot of work on my server
 		infrastructure and degoogling (see above). On desktop I started out with MacOS for about 5
 		years, then switched to Windows in 2020 until I eventually switched to Linux. First to Arch
 		Linux at the end of 2022 and then to NixOS at the end of 2024. I tried using Hyprland but wasn't
@@ -135,10 +135,10 @@
 		have a system with my original Windows 11, Arch Linux and NixOS System. I also have a boot
 		option for another linux system to play around with. Storage is so cheap these days and over
 		countless reinstalls I've became quite good at managing multi-boot systems. Even though I
-		finished the major act of switching to Graphene OS and from Arch to NixOS these systems are
-		still evolving and I enjoy tinkering on them. That's why they are still kind of an open project
-		even though using them has become a rather boring default (that's a good think! things should
-		just work!).
+		finished the major act of switching to GrapheneOS and from Arch to NixOS these systems are still
+		evolving and I enjoy tinkering on them. That's why they are still kind of an open project even
+		though using them has become a rather boring default (that's a good think! things should just
+		work!).
 	</p>
 	<Links
 		links={[
@@ -148,7 +148,7 @@
 				href: `https://nixos.org/`
 			},
 			{
-				name: `Graphene OS`,
+				name: `GrapheneOS`,
 				type: `link`,
 				href: `https://grapheneos.org/`
 			}
