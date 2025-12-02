@@ -81,7 +81,8 @@
 				<a
 					href="https://github.com/StrangeGirlMurph"
 					class="inline-block"
-					aria-label="My GitHub account (opens in same tab)"
+					target="_blank"
+					aria-label="My GitHub account"
 					on:click={() => {
 						menuOpen = false;
 					}}
@@ -92,7 +93,8 @@
 				<a
 					href="https://codeberg.org/StrangeGirlMurph"
 					class="inline-block"
-					aria-label="My Codeberg account (opens in same tab)"
+					target="_blank"
+					aria-label="My Codeberg account"
 					on:click={() => {
 						menuOpen = false;
 					}}
