@@ -61,7 +61,6 @@
 			class="md:flex flex-wrap items-center gap-4 justify-center border-t-[1px] pt-4 md:border-t-0 md:pt-0 {!menuOpen
 				? 'hidden'
 				: 'flex'}"
-			inert={!menuOpen}
 		>
 			{#each menus as menu}
 				<li>
@@ -81,7 +80,7 @@
 			<li class="flex items-center gap-4">
 				<a
 					href="https://github.com/StrangeGirlMurph"
-					class="hover:animate-rainbow inline-block"
+					class="inline-block"
 					aria-label="My GitHub account (opens in same tab)"
 					on:click={() => {
 						menuOpen = false;
