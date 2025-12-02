@@ -85,7 +85,6 @@
 <svelte:head>
 	<title>About Me | Murphy</title>
 	<meta name="description" content="A little bit about me as a person." />
-	<!-- Preload LCP image -->
 	<link rel="preload" as="image" href="/profile-300.avif" type="image/avif" fetchpriority="high" />
 	<link rel="preload" as="image" href="/profile-300.webp" type="image/webp" fetchpriority="high" />
 </svelte:head>
@@ -197,7 +196,7 @@
 			{#each skills[index] as skill}
 				<img
 					src="{deviconCDN}{skill.icon}.svg"
-					class="w-11 inline-block drop-shadow-sm dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.6)]"
+					class="w-11 inline-block drop-shadow-sm dark:bg-zinc-200 dark:rounded-lg dark:p-1"
 					title={skill.name}
 					alt={skill.name}
 					loading="lazy"
