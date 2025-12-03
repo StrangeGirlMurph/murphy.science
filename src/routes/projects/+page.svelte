@@ -12,28 +12,6 @@
 	<p class="subtitle">An overview of my side projects in no particular order.</p>
 </div>
 
-<h2>OpenStreetMap</h2>
-<section>
-	<p>
-		Since October 2025 I am <em>really</em> addicted to mapping for the
-		<a class="link" href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</a>. It's just
-		soo much fun. A video game that benifits the world really. It really tickles my brain in the
-		right way. I can highly recommed trying it yourself! Simply visit
-		<a class="link" href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit"
-		button, create an account and start mapping! The iD editor gives you a quick and easy
-		introduction and is very easy to use :) Sadly it's not easy to make time for it :(
-	</p>
-	<Links
-		links={[
-			{
-				name: `OSM Profile`,
-				type: `link`,
-				href: `https://www.openstreetmap.org/user/StrangeGirlMurph`
-			}
-		]}
-	/>
-</section>
-
 <h2>Open-Source Contributions</h2>
 <section>
 	<p>
@@ -82,6 +60,28 @@
 				name: `enmap | Repository`,
 				type: `github`,
 				href: `https://github.com/eslachance/enmap`
+			}
+		]}
+	/>
+</section>
+
+<h2>OpenStreetMap</h2>
+<section>
+	<p>
+		Since October 2025 I am <em>really</em> addicted to mapping for the
+		<a class="link" href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</a>. It's just
+		soo much fun. A video game that benifits the world really. It really tickles my brain in the
+		right way. I can highly recommed trying it yourself! Simply visit
+		<a class="link" href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit"
+		button, create an account and start mapping! The iD editor gives you a quick and easy
+		introduction and is very easy to use :) Sadly it's not easy to make time for it :(
+	</p>
+	<Links
+		links={[
+			{
+				name: `OSM Profile`,
+				type: `link`,
+				href: `https://www.openstreetmap.org/user/StrangeGirlMurph`
 			}
 		]}
 	/>
