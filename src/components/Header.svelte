@@ -66,9 +66,9 @@
 				<li>
 					<a
 						href={menu.href}
-						class="text-lg hover:underline text-center {menu.href === page.route.id
-							? 'text-green'
-							: ''}"
+						class="text-lg hover:underline text-center"
+						class:text-green={menu.href === page.route.id}
+						aria-current={menu.href === page.route.id ? 'page' : 'false'}
 						on:click={() => {
 							menuOpen = false;
 						}}

@@ -192,19 +192,21 @@
 	</p>
 	{#each ['I am good with', 'I am okay with', 'I came in contact with'] as title, index}
 		<h3 class="mt-4">{title}</h3>
-		<div class="flex flex-row flex-wrap gap-4 justify-center my-5">
+		<ul class="flex flex-row flex-wrap gap-4 justify-center my-5">
 			{#each skills[index] as skill}
-				<img
-					src="{deviconCDN}{skill.icon}.svg"
-					class="w-11 inline-block drop-shadow-sm dark:bg-zinc-200 dark:rounded-lg dark:p-1"
-					title={skill.name}
-					alt={skill.name}
-					loading="lazy"
-					width="44"
-					height="44"
-				/>
+				<li>
+					<img
+						src="{deviconCDN}{skill.icon}.svg"
+						class="w-11 inline-block drop-shadow-sm dark:bg-zinc-200 dark:rounded-lg dark:p-1"
+						title={skill.name}
+						alt={skill.name}
+						loading="lazy"
+						width="44"
+						height="44"
+					/>
+				</li>
 			{/each}
-		</div>
+		</ul>
 	{/each}
 </section>
 
