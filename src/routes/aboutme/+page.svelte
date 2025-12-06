@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Link from '../../components/Link.svelte';
 	import Links from '../../components/Links.svelte';
 	export let data: { birthday: string };
 
@@ -103,7 +104,7 @@
 			and some of my greatest strengths are my ability to be very disciplined when I need and want to
 			be, my empathy, my autism and my incredible motivation to save this world. In May 2020 I built
 			my first computer (named
-			<a href="https://interstellarfilm.fandom.com/wiki/TARS" class="link">TARS</a>). Since then my
+			<Link href="https://interstellarfilm.fandom.com/wiki/TARS">TARS</Link>). Since then my
 			knowledge has basically grown exponentially and I learned a ton about science and specifically
 			computer science and just never stopped. My true passion is physics. I had an amazing physics
 			teacher in school and learned so much from him. Sadly there is too much pain and suffering in
@@ -113,14 +114,13 @@
 			mechanics. And I think AI has an incredible potential to boost all kinds of scientific
 			research. Note: I am not talking about generative AI. That sentence was written before LLMs
 			got here... I mean just look at what
-			<a href="https://www.deepmind.com/" class="link">DeepMind</a>
+			<Link href="https://www.deepmind.com/">DeepMind</Link>
 			is achieving with
-			<a class="link" href="https://www.deepmind.com/research/highlighted-research/alphafold"
-				>AlphaFold</a
-			>
+			<Link href="https://www.deepmind.com/research/highlighted-research/alphafold">AlphaFold</Link>
 			for example. Now back to the important things though: I LOVE How I Met Your Mother ☺️ For me it's
-			the single greatest piece of art ever created! You should watch it if you haven't already! Oh and
-			I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
+			the single greatest piece of art ever created! You should watch it if you haven't already! My favorite
+			sans-serif font is probably Avenir Next LT Pro and my favorite serif font is Charter BT Roman.
+			Oh and I like <a href="/cats" class="hover:underline hover:text-green">cats</a> :)
 		</p>
 		<picture class="block flex-shrink-0">
 			<source srcset="/profile-300.avif" type="image/avif" />
@@ -157,7 +157,7 @@
 	</p>
 </section>
 
-<h2>University</h2>
+<h2 id="university">University</h2>
 <section>
 	<p>
 		I am currently studying Computer Science, Mathematics & Physics at University. It's a
@@ -185,9 +185,8 @@
 		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc. I
 		roughly categorized them by how confident I am in using them and tried to sort them a bit by
 		type in each category. This is just a small overview so you can get a sense of what I am working
-		with. Not that this is a only a portion of them though. They are limited by the icons I found on <a
-			href="https://devicon.dev/"
-			class="link">Devicon</a
+		with. Not that this is a only a portion of them though. They are limited by the icons I found on <Link
+			href="https://devicon.dev/">Devicon</Link
 		> 🙃
 	</p>
 	{#each ['I am good with', 'I am okay with', 'I came in contact with'] as title, index}
@@ -224,10 +223,9 @@
 		If you want to contact me, you can do so via email. If you wanna learn more about one of my
 		projects, have some feedback or whatever it may be. I actually enjoy email and I am happy to
 		hear from you :) You can also try some other ways like the discussions tab on my GitHub README
-		Repo <a class="link" href="https://github.com/StrangeGirlMurph/StrangeGirlMurph/discussions"
-			>here</a
-		>. You'll find a way. When you do so please introduce yourself a bit that I roughly know who I
-		am talking to and what the context is.
+		Repo <Link href="https://github.com/StrangeGirlMurph/StrangeGirlMurph/discussions">here</Link>.
+		You'll find a way. When you do so please introduce yourself a bit that I roughly know who I am
+		talking to and what the context is.
 	</p>
 	<Links
 		links={[

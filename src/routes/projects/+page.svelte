@@ -1,4 +1,5 @@
 <script>
+	import Link from '../../components/Link.svelte';
 	import Links from '../../components/Links.svelte';
 </script>
 
@@ -17,9 +18,8 @@
 	<p>
 		I am a big fan of open-source software and I try to contribute to projects whenever I got the
 		time and I find some bug or I am looking for a new feature. Sometimes these are just very small
-		things. Sometimes I really get into it. I also like to contribute to the <a
-			class="link"
-			href="https://wikipedia.org">Wikipedia</a
+		things. Sometimes I really get into it. I also like to contribute to the <Link
+			href="https://wikipedia.org">Wikipedia</Link
 		>
 		when I notice something is wrong. (Software) projects I contributed to (wrote code for) (the list
 		of issues is much longer):
@@ -69,12 +69,12 @@
 <section>
 	<p>
 		Since October 2025 I am <em>really</em> addicted to mapping for the
-		<a class="link" href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</a>. It's just
-		soo much fun. A video game that benifits the world really. It really tickles my brain in the
-		right way. I can highly recommed trying it yourself! Simply visit
-		<a class="link" href="https://www.openstreetmap.org/">openstreetmap.org</a>, hit the big "Edit"
-		button, create an account and start mapping! The iD editor gives you a quick and easy
-		introduction and is very easy to use :) Sadly it's not easy to make time for it :(
+		<Link href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</Link>. It's just soo much
+		fun. A video game that benifits the world really. It really tickles my brain in the right way. I
+		can highly recommed trying it yourself! Simply visit
+		<Link href="https://www.openstreetmap.org/">openstreetmap.org</Link>, hit the big "Edit" button,
+		create an account and start mapping! The iD editor gives you a quick and easy introduction and
+		is very easy to use :) Sadly it's not easy to make time for it :(
 	</p>
 	<Links
 		links={[
@@ -92,18 +92,16 @@
 	<p>
 		Self-hosting different open-source services is something I am really interested in. I just
 		recently started and already learned a ton. My Beelink S12 Pro Mini at home has been running day
-		and night without trouble. I am using <a class="link" href="https://caddyserver.com/">Caddy</a>
+		and night without trouble. I am using <Link href="https://caddyserver.com/">Caddy</Link>
 		as a reverse proxy and using
-		<a class="link" href="https://nixos.org/">NixOS</a> as the operating system. Nix and
-		<a class="link" href="https://www.docker.com/">Docker</a>/<a
-			class="link"
-			href="https://docs.docker.com/compose/">Docker Compose</a
+		<Link href="https://nixos.org/">NixOS</Link> as the operating system. Nix and
+		<Link href="https://www.docker.com/">Docker</Link>/<Link href="https://docs.docker.com/compose/"
+			>Docker Compose</Link
 		>
 		make it really easy to deploy services. Just look at what it takes to setup Audiobookshelf for example:
-		<a
-			class="link"
+		<Link
 			href="https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=services.audiobookshelf"
-			>NixOS Audiobookshelf Options</a
+			>NixOS Audiobookshelf Options</Link
 		>. I finally got to ditch Google Drive and Google Photos! My dashboard lists every service I am
 		hosting (pls don't hack or DDoS me 🥺):
 	</p>
@@ -159,14 +157,14 @@
 <h2>Coding Projects & monthly Jams</h2>
 <section>
 	<p>
-		As I mentioned in the context of Jambo on the <a class="link" href="/work">work page</a>, I am
-		part of an international Discord server where we do monthly coding jams/hackathons. From there
-		and just my every day life I have a whole repository full of small projects like riddles,
-		challenges and all kinds of thingies. I like to participate in the Advent of Code every year or
-		do something fun for the Pi-Day for example and I get a lot of inspiration from YouTube. Most of
-		the projects are not finished nor polished at all 🙃 And that's okay! This is my having fun
-		repository. Sadly with everything else in our lifes we barely find the time to stick to our
-		monthly schedule on the server anymore. We're now all busy with university or work.
+		As I mentioned in the context of Jambo on the <Link href="/work">work page</Link>, I am part of
+		an international Discord server where we do monthly coding jams/hackathons. From there and just
+		my every day life I have a whole repository full of small projects like riddles, challenges and
+		all kinds of thingies. I like to participate in the Advent of Code every year or do something
+		fun for the Pi-Day for example and I get a lot of inspiration from YouTube. Most of the projects
+		are not finished nor polished at all 🙃 And that's okay! This is my having fun repository. Sadly
+		with everything else in our lifes we barely find the time to stick to our monthly schedule on
+		the server anymore. We're now all busy with university or work.
 	</p>
 	<Links
 		links={[
@@ -184,17 +182,16 @@
 </h2>
 <section>
 	<p>
-		I guess this website is also one of my side projects. I build it with <a
-			class="link"
-			href="https://kit.svelte.dev/">SvelteKit</a
-		>, <a class="link" href="https://tailwindcss.com/">Tailwind</a> and deployed it with
-		<a class="link" href="https://vercel.com/">Vercel</a>. First I tried using
-		<a href="https://fresh.deno.dev/" class="link">Fresh</a>, Deno and Deno Deploy because I fell in
-		love with Deno but I was just way too new to web development and wasn't up for it. Then I used
-		<a href="https://nuxt.com/" class="link">Nuxt</a> but it wasn't a good fit either. I really don't
-		like web development but it's kinda just what you have to learn in order to built things like this...
-		I am pretty happy with SvelteKit now though :) I also have a private wiki about me for friends and
-		another personal website for projects like birthday presents. Both of them are password protected.
+		I guess this website is also one of my side projects. I build it with <Link
+			href="https://kit.svelte.dev/">SvelteKit</Link
+		>, <Link href="https://tailwindcss.com/">Tailwind</Link> and deployed it with
+		<Link href="https://vercel.com/">Vercel</Link>. First I tried using
+		<Link href="https://fresh.deno.dev/">Fresh</Link>, Deno and Deno Deploy because I fell in love
+		with Deno but I was just way too new to web development and wasn't up for it. Then I used
+		<Link href="https://nuxt.com/">Nuxt</Link> but it wasn't a good fit either. I really don't like web
+		development but it's kinda just what you have to learn in order to built things like this... I am
+		pretty happy with SvelteKit now though :) I also have a private wiki about me for friends and another
+		personal website for projects like birthday presents. Both of them are password protected.
 	</p>
 	<Links
 		links={[

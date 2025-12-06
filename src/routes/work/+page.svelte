@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Link from '../../components/Link.svelte';
 	import Links from '../../components/Links.svelte';
 	export let data;
 </script>
@@ -13,16 +14,45 @@
 	<p class="subtitle">An overview of my rather serious work.</p>
 </div>
 
-<h2>Server Charms</h2>
+<h2 id="volunteering">Volunteering</h2>
+<section>
+	<p>
+		I deeply care about making the world a better place. I care about <Link
+			href="https://en.wikipedia.org/wiki/FLINTA*">FLINTA</Link
+		>
+		in science and tech, queer rights, accessibility, education for neglected minorities and basically
+		all those other typical left values. I encorporate these things into my work and also do quite a
+		bit of volunteering around them. The volunteering I do takes up a lot of time and I felt they deserved
+		a place here. Currently I am an active member at the FLINTA Hackspace
+		<Link href="https://heartofcode.org">Heart of Code</Link>. At
+		<Link href="/aboutme#university">University</Link>
+		I am also a student representative and basically build up our subjects student association from the
+		ground up. I also take care of our finances. I try to make the bachelor more accessible to students
+		who aren't rich and come with tons of prior knowledge. I care about fairness. I also advocate for
+		others and the things I care about in many smaller ways that aren't easily trackable. Usually I am
+		the first to say yes to work that needs to get done for causes that I support.
+
+		<br /> <br />
+		Things I organized/took part in: the under 18 program team of the
+		<Link href="https://tincon.org">TINCON</Link> (a conference for digital youth culture), a day long
+		<Link href="https://github.com/StrangeGirlMurph/Coding-Seminar"
+			>intro to programming workshop</Link
+		>, a talk on FLINTA in science for a FLINTA meetup at my university, multiple about 4h long
+		workshops/presentations on transidentity and queerness, the two part Server Charm workshop (see
+		below), hosting many smaller meetings at Heart of Code and other things I currently can't
+		remember (will add them incrementally).
+	</p>
+</section>
+
+<h2 id="server-charms">Server Charms</h2>
 <section>
 	<p>
 		A beginner-friendly manual for a Server Charm. A portable device that creates its own Wi-Fi
 		network and hosts a website for curious people around you! An everyday companion/portable
 		easteregg. The manual is quite extensive with a big glossary. It also covers fun mods for the
 		Basic Server Charm. It's meant to be a fun maker project for beginners and experienced people.
-		The product is also just really cool. Based on the manual I organized a workshop in a local <a
-			class="link"
-			href="https://en.wikipedia.org/wiki/FLINTA*">FLINTA</a
+		The product is also just really cool. Based on the manual I organized a workshop in a local <Link
+			href="https://en.wikipedia.org/wiki/FLINTA*">FLINTA</Link
 		> hackspace in Berlin.
 	</p>
 	<Links
@@ -41,17 +71,17 @@
 	/>
 </section>
 
-<h2>Obsidian Wikipedia Helper Plugin</h2>
+<h2 id="wikipedia-helper">Obsidian Wikipedia Helper Plugin</h2>
 <section>
 	<p>
-		A plugin for the note taking app <a class="link" href="https://obsidian.md/">Obsidian</a> that
-		uses the <a class="link" href="https://wikipedia.org">Wikipedia</a> API to let the user search,
-		link, insert and open Wikipedia/Wikimedia articles directly in their notes from within the app.
-		I built it because I was looking for that functionality myself when writing about scientific
-		stuff. It just makes it so much more convenient to gather knowledge. The plugin is available in
-		the community plugin list and has in total {data['downloads'] ?? 'over 20000'} downloads. It's my
-		first project where I get to handle bug and feature reports and fix/implement them. It's a lot of
-		fun and I take pride in having fixed basically all bug reports I got in under 24h :)
+		A plugin for the note taking app <Link href="https://obsidian.md/">Obsidian</Link> that uses the
+		<Link href="https://wikipedia.org">Wikipedia</Link>
+		API to let the user search, link, insert and open Wikipedia/Wikimedia articles directly in their
+		notes from within the app. I built it because I was looking for that functionality myself when writing
+		about scientific stuff. It just makes it so much more convenient to gather knowledge. The plugin
+		is available in the community plugin list and has in total {data['downloads'] ?? 'over 20000'} downloads.
+		It's my first project where I get to handle bug and feature reports and fix/implement them. It's
+		a lot of fun and I take pride in having fixed basically all bug reports I got in under 24h :)
 	</p>
 	<Links
 		links={[
@@ -69,14 +99,14 @@
 	/>
 </section>
 
-<h2>The Humane Software License</h2>
+<h2 id="humane-software-license">The Humane Software License</h2>
 <section>
 	<p>
 		A software license to change the world! All the code I write and publish is in some way or
 		another there to save the world. I was looking for a software license that encapsulates this
 		passion and ease my fear of people abusing my work for their malicious purposes but could only
-		really find the <a class="link" href="https://anticapitalist.software/"
-			>Anti-Capitalist Software License</a
+		really find the <Link href="https://anticapitalist.software/"
+			>Anti-Capitalist Software License</Link
 		> and so ended up creating my own license instead. From the projects README: "The HSL is meant to
 		accompany software that empowers individuals, collectives, worker-owned cooperatives, and nonprofits
 		who follow the UN Universal Declaration of Human Rights, while denying usage to those that exploit
@@ -95,7 +125,7 @@
 	/>
 </section>
 
-<h2>Introduction to Fractals and Holomorphic Dynamics</h2>
+<h2 id="fractals">Introduction to Fractals and Holomorphic Dynamics</h2>
 <section>
 	<p>
 		An article I wrote for my university course "Scientific Computing in Mathematica". It is an
@@ -103,9 +133,8 @@
 		for some of the most well known fractals which I also cover. I created all the visuals myself in
 		Mathematica 13. You can run and edit them yourself by downloading the source code from below. I
 		wrote it in my second semester but to read and understand it you barely need to know any
-		mathematical notation to follow along. It's highly influenced by <a
-			href="https://www.youtube.com/@3blue1brown"
-			class="link">3Blue1Browns</a
+		mathematical notation to follow along. It's highly influenced by <Link
+			href="https://www.youtube.com/@3blue1brown">3Blue1Browns</Link
 		> incredible videos on the topic! My personal highlight of the article is the section covering and
 		showing the bifurcation diagram of the logistic map hiding in the Mandelbrot set plotted in three
 		dimensions. The bifurcation diagram of the logistic map definitely was one of my special interests.
@@ -128,17 +157,17 @@
 	/>
 </section>
 
-<h2>Facial Landmark Detection</h2>
+<h2 id="facial-landmark-detection">Facial Landmark Detection</h2>
 <section>
 	<p>
 		A project on facial landmark detection on facecam input I did for my university course "Deep
 		Learning". Even though the article was written together with two others I did all the coding. I
-		used <a href="https://www.tensorflow.org/" class="link">TensorFlow</a> and a
-		<a class="link" href="https://en.wikipedia.org/wiki/Convolutional_neural_network"
-			>convolutional neural network</a
+		used <Link href="https://www.tensorflow.org/">TensorFlow</Link> and a
+		<Link href="https://en.wikipedia.org/wiki/Convolutional_neural_network"
+			>convolutional neural network</Link
 		>
-		with a dataset from <a href="https://www.kaggle.com/" class="link">Kaggle</a>. The project was
-		my first experience with the development of real world machine learning applications. I had fun
+		with a dataset from <Link href="https://www.kaggle.com/">Kaggle</Link>. The project was my first
+		experience with the development of real world machine learning applications. I had fun
 		optimizing some custom masked loss functions but by far the biggest and most time consuming part
 		was dealing with the data and building the infrastructure around video inputs and so on.
 	</p>
@@ -158,7 +187,7 @@
 	/>
 </section>
 
-<h2>Jambo</h2>
+<h2 id="jambo">Jambo</h2>
 <section>
 	<p>
 		A Discord bot to manage a whole game jam/hackathon server from a fully functional poll system to
@@ -166,9 +195,8 @@
 		monthly coding jams/hackathons. Because organizing them with collecting all the proposals and
 		creating polls with external tools was way too much work we went the "programmer way" and spent
 		nearly a year developing our own Discord bot as a group project to handle all those things for
-		us :) We are about 7 active developers. We are more people on the server though. Check out the <a
-			href="https://github.com/Cowoding-Jams/Jambo/wiki"
-			class="link">wiki</a
+		us :) We are about 7 active developers. We are more people on the server though. Check out the <Link
+			href="https://github.com/Cowoding-Jams/Jambo/wiki">wiki</Link
 		> to learn more about its features and create your own server with it!
 	</p>
 	<Links
@@ -178,10 +206,10 @@
 	/>
 </section>
 
-<h2>HoleeBike</h2>
+<h2 id="holeebike">HoleeBike</h2>
 <section>
 	<p>
-		A <a class="link" href="https://flutter.dev/">Flutter</a> app I developed as part of my school graduation
+		A <Link href="https://flutter.dev/">Flutter</Link> app I developed as part of my school graduation
 		in 12th class. In Berlin we have this thing called "5. Prüfungskomponente" which is part of our A
 		levels where you can either write a paper or have a presentation. I did a presentation in Geography
 		with Computer Science as the secondary subject. After other project ideas like automatically orientating
