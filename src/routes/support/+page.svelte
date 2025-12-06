@@ -21,7 +21,7 @@
 		<a href="https://ko-fi.com/murph" class="link"
 			>Ko-fi <img
 				src="https://storage.ko-fi.com/cdn/nav-logo-stroke.png"
-				alt="Ko-fi logo"
+				alt=""
 				class="w-6 h-6 object-contain"
 			/></a
 		>
@@ -30,7 +30,7 @@
 		<a href="https://paypal.me/strangemurph" class="link"
 			>PayPal <img
 				src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg"
-				alt="PayPal logo"
+				alt=""
 				class="w-5 h-5"
 			/></a
 		> give you the option to support my work financially and make my day with it. In general I mostly

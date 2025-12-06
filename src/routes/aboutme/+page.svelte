@@ -191,8 +191,16 @@
 		> 🙃
 	</p>
 	{#each ['I am good with', 'I am okay with', 'I came in contact with'] as title, index}
-		<h3 class="mt-4">{title}</h3>
-		<ul class="flex flex-row flex-wrap gap-4 justify-center my-5">
+		<div class="relative">
+			<h3 class="mt-4 outline-none" id="skill-group-{index}" tabindex="-1">{title}</h3>
+			<a href="#{index === 2 ? 'contact' : `skill-group-${index + 1}`}" class="skip-link">
+				Skip list
+			</a>
+		</div>
+		<ul
+			class="flex flex-row flex-wrap gap-4 justify-center my-5"
+			aria-labelledby="skill-group-{index}"
+		>
 			{#each skills[index] as skill}
 				<li>
 					<img
@@ -210,7 +218,7 @@
 	{/each}
 </section>
 
-<h2>Contact me</h2>
+<h2 id="contact" tabindex="-1" class="outline-none">Contact me</h2>
 <section>
 	<p>
 		If you want to contact me, you can do so via email. If you wanna learn more about one of my

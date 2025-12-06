@@ -44,7 +44,7 @@
 		</div>
 	</div>
 
-	<a href="/support" class="hover:underline">
+	<a href="/support" class="hover:underline" aria-label="Support Me">
 		<i>Support <span class="sm:inline hidden">Me</span></i></a
 	>
 </footer>

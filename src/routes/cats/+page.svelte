@@ -7,10 +7,7 @@
 	<meta name="description" content="Some cute cats :)" />
 </svelte:head>
 
-<!-- <div class="heading mb-10">
-	<h1 class="title md:before:content-['🥰_'] md:after:content-['_🐈‍⬛']">Cats & Kittens</h1>
-	<h2 class="subtitle">You found the secret kittens! (Reload for more 💕)</h2>
-</div> -->
+<h1 class="sr-only">Cats & Kittens</h1>
 
 <div class="grow flex flex-col items-center justify-center max-h-full my">
 	<div>

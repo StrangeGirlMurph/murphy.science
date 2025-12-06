@@ -40,21 +40,22 @@
 				</a>
 				<a href="/" class="text-2xl font-bold"> Murphy </a>
 			</div>
-			<button
-				class="md:hidden"
-				aria-controls="primary-navigation"
-				aria-expanded={menuOpen}
-				aria-label="Toggle navigation"
-				on:click={() => {
-					menuOpen = !menuOpen;
-				}}
-			>
-				{#if menuOpen}
-					<MenuOpen className="h-7 w-7" />
-				{:else}
-					<Menu className="h-7 w-7" />
-				{/if}
-			</button>
+			<div class="md:hidden flex items-center">
+				<button
+					aria-controls="primary-navigation"
+					aria-expanded={menuOpen}
+					aria-label="Toggle navigation"
+					on:click={() => {
+						menuOpen = !menuOpen;
+					}}
+				>
+					{#if menuOpen}
+						<MenuOpen className="h-7 w-7" />
+					{:else}
+						<Menu className="h-7 w-7" />
+					{/if}
+				</button>
+			</div>
 		</div>
 		<ul
 			id="primary-navigation"
