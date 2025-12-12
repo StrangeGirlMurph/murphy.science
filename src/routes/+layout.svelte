@@ -22,7 +22,10 @@
 	<link rel="preload" as="image" href="/profile-25-40.webp" type="image/webp" />
 </svelte:head>
 
-<div class="flex flex-col items-center" style="min-height:100vh; min-height: 100svh;">
+<div
+	class="flex flex-col items-center w-full overflow-x-hidden"
+	style="min-height: 100vh; min-height: 100dvh;"
+>
 	<a class="skip-link" href="#main">Skip to content</a>
 	<div class="h-[5px] rainbow-bg w-full"></div>
 	<div class="p-4 flex flex-col flex-grow justify-between items-center w-full max-w-screen-2xl">
