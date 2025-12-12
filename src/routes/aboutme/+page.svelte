@@ -141,19 +141,19 @@
 <h2>What am I doing with my life?</h2>
 <section>
 	<p>
-		I want to save the world and make it a better place. I want to fight the pain and suffering. I
-		can't survive just watching humans suffer all over the world and not doing anything about it. I
-		am way too empathetic for that. Their pain is my pain. I am good at and love science.
-		Specifically computer science, mathematics and physics which is also exactly what I am currently
-		studying at university. As I already mentioned in the "Who am I?" section my future work will
-		mostly have to do with cs though. Currently I am in the filling my brain with skills and
-		knowledge section of my life but I am also already producing some small results. In the future I
-		want to work on all kinds of problems. Always not for profit of course. With my education I
-		could do all kinds of things like working on the transition to sustainable energy production,
-		nuclear fusion, climate models or very applied projects to educate, feed or protect humans to
-		name a very few. The possibilities for me to help humankind and help save the world are endless.
-		I am basically a workaholic and code a lot... My desire and motivation to help humans is pretty
-		unique.
+		I want to save the world and make it a better place. I want to end the wrong and unfair pain and
+		suffering innocent people have to endure. I can't survive just watching innocent humans suffer
+		all over the world and not doing anything about it. I am way too empathetic for that. Their pain
+		is my pain. I am good at and love science. Specifically computer science, mathematics and
+		physics which is also exactly what I am currently studying at university. As I already mentioned
+		in the "Who am I?" section my future work will mostly have to do with cs though. Currently I am
+		in the "filling my brain with skills and knowledge" section of my life but I am also already
+		producing some small results. In the future I want to work on all kinds of problems. Always not
+		for profit of course. With my education I could do all kinds of things like working on the
+		transition to sustainable energy production, nuclear fusion, climate models or very applied
+		projects to educate, feed or protect humans to name a very few. The possibilities for me to help
+		and save the world are endless. I am basically a workaholic and code a lot... My intense desire
+		and motivation to help humans was once rather morbid but should be better now.
 	</p>
 </section>
 
