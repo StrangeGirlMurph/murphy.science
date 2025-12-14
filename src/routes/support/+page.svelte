@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title">Support Me</h1>
+	<h1>Support Me</h1>
 	<p class="subtitle">Possibilities to support me and my work financially!</p>
 </div>
 
@@ -33,9 +33,9 @@
 				alt=""
 				class="w-5 h-5"
 			/></a
-		> give you the option to support my work financially and make my day with it. In general I mostly
-		only need the support for my projects to pay for databases, domains and some services. I currently
-		have enough to live. Either way have a wonderful day! &lt;3
+		> give you the option to support my work financially and make my day with it. I don't have any major
+		expenses yet and currently have enough to live. So for now you would support my cake consumption
+		&gt;:) Either way have a wonderful day! &lt;3
 	</p>
 </section>
 

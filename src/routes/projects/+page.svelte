@@ -9,12 +9,12 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title">Side Projects</h1>
+	<h1>Side Projects</h1>
 	<p class="subtitle">An overview of my side projects in no particular order.</p>
 </div>
 
-<h2>Open-Source Contributions</h2>
 <section>
+	<h2>Open-Source Contributions</h2>
 	<p>
 		I am a big fan of open-source software and I try to contribute to projects whenever I got the
 		time and I find some bug or I am looking for a new feature. Sometimes these are just very small
@@ -65,8 +65,8 @@
 	/>
 </section>
 
-<h2>OpenStreetMap</h2>
 <section>
+	<h2>OpenStreetMap</h2>
 	<p>
 		Since October 2025 I am <em>really</em> addicted to mapping for the
 		<Link href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</Link>. It's just soo much
@@ -87,8 +87,8 @@
 	/>
 </section>
 
-<h2>Self-hosting on my Server</h2>
 <section>
+	<h2>Self-hosting on my Server</h2>
 	<p>
 		Self-hosting different open-source services is something I am really interested in. I just
 		recently started and already learned a ton. My Beelink S12 Pro Mini at home has been running day
@@ -116,8 +116,8 @@
 	/>
 </section>
 
-<h2>Operating Systems</h2>
 <section>
+	<h2>Operating Systems</h2>
 	<p>
 		My journey with different operating systems was quite a long one. On mobile I started with iOS
 		on the Apple iPod touch then continued with Samsungs Android for about 6/7 years and then for 5
@@ -154,8 +154,8 @@
 	/>
 </section>
 
-<h2>Coding Projects & monthly Jams</h2>
 <section>
+	<h2>Coding Projects & monthly Jams</h2>
 	<p>
 		As I mentioned in the context of Jambo on the <Link href="/work">work page</Link>, I am part of
 		an international Discord server where we do monthly coding jams/hackathons. From there and just
@@ -177,10 +177,10 @@
 	/>
 </section>
 
-<h2>
-	<a href="/">murphy.science</a>
-</h2>
 <section>
+	<h2>
+		<a href="/">murphy.science</a>
+	</h2>
 	<p>
 		I guess this website is also one of my side projects. I build it with <Link
 			href="https://kit.svelte.dev/">SvelteKit</Link

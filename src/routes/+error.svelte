@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title">
+	<h1>
 		Error {$page.status}
 	</h1>
 	<p class="subtitle">

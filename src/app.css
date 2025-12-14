@@ -7,15 +7,15 @@ html {
 }
 
 h1 {
-	@apply text-3xl md:text-4xl;
+	@apply text-5xl leading-tight md:text-6xl md:leading-tight;
 }
 
 h2 {
-	@apply text-2xl md:text-3xl my-2;
+	@apply text-3xl leading-snug md:text-3xl md:leading-snug;
 }
 
 h3 {
-	@apply text-xl md:text-2xl my-2;
+	@apply text-xl md:text-2xl;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 }
 
 section {
-	@apply mt-3 mb-8;
+	@apply mb-8;
 }
 
 body {
@@ -55,12 +55,8 @@ body {
 		@apply my-14 md:my-20;
 	}
 
-	.title {
-		@apply text-5xl md:text-6xl  leading-tight;
-	}
-
 	.subtitle {
-		@apply text-xl alt-color md:mt-6 w-[90%] sm:w-full;
+		@apply text-xl alt-color w-[90%];
 	}
 
 	.rainbow-bg {

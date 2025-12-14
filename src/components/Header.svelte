@@ -20,11 +20,7 @@
 	<nav class="flex flex-col md:flex-row justify-between gap-4" aria-label="Primary">
 		<div class="flex justify-between">
 			<div class="flex items-center gap-3 group min-w-fit">
-				<a
-					href="https://ko-fi.com/murph"
-					class="group-hover:animate-spin-slow"
-					aria-label="Support me on Ko-fi"
-				>
+				<a href="/support" class="group-hover:animate-spin-slow" aria-label="Support me">
 					<picture>
 						<source srcset="/profile-50.avif" type="image/avif" />
 						<source srcset="/profile-50.webp" type="image/webp" />

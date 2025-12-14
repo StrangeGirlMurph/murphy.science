@@ -91,12 +91,12 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title">About Me</h1>
+	<h1>About Me</h1>
 	<p class="subtitle">Learn a bit about me and my goals in life.</p>
 </div>
 
-<h2>Who am I?</h2>
 <section>
+	<h2>Who am I?</h2>
 	<div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
 		<p>
 			In a nutshell I am a young, left and queer girl called Murphy. I am about {data.birthday} old.
@@ -138,8 +138,8 @@
 	</div>
 </section>
 
-<h2>What am I doing with my life?</h2>
 <section>
+	<h2>What am I doing with my life?</h2>
 	<p>
 		I want to save the world and make it a better place. I want to end the wrong and unfair pain and
 		suffering innocent people have to endure. I can't survive just watching innocent humans suffer
@@ -157,8 +157,8 @@
 	</p>
 </section>
 
-<h2 id="university">University</h2>
 <section>
+	<h2 id="university">University</h2>
 	<p>
 		I am currently studying Computer Science, Mathematics & Physics at University. It's a
 		challenging combination of all three disciplines. I am having the same courses as the regular
@@ -179,8 +179,8 @@
 	</p>
 </section>
 
-<h2>Skills</h2>
 <section>
+	<h2>Skills</h2>
 	<p>
 		Over the years I used and explored a bunch of languages/operating systems/tools/libraries/etc. I
 		roughly categorized them by how confident I am in using them and tried to sort them a bit by
@@ -217,8 +217,8 @@
 	{/each}
 </section>
 
-<h2 id="contact" tabindex="-1" class="outline-none">Contact me</h2>
 <section>
+	<h2 id="contact" tabindex="-1" class="outline-none">Contact me</h2>
 	<p>
 		If you want to contact me, you can do so via email. If you wanna learn more about one of my
 		projects, have some feedback or whatever it may be. I actually enjoy email and I am happy to

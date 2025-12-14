@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="flex-grow flex flex-col justify-center">
-	<h1 class="title text-center md:text-7xl">
+	<h1 class="text-center sm:text-6xl sm:leading-snug md:text-7xl md:leading-snug">
 		Hey, I am <span class="hover:animate-rainbow">Murphy</span>!
 	</h1>
 	<p class="subtitle text-center w-full">

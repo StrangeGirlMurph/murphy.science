@@ -10,12 +10,12 @@
 </svelte:head>
 
 <div class="heading">
-	<h1 class="title">Work</h1>
+	<h1>Work</h1>
 	<p class="subtitle">An overview of my rather serious work.</p>
 </div>
 
-<h2 id="volunteering">Volunteering</h2>
 <section>
+	<h2 id="volunteering">Volunteering</h2>
 	<p>
 		I deeply care about making the world a better place. I care about <Link
 			href="https://en.wikipedia.org/wiki/FLINTA*">FLINTA</Link
@@ -44,8 +44,8 @@
 	</p>
 </section>
 
-<h2 id="server-charms">Server Charms</h2>
 <section>
+	<h2 id="server-charms">Server Charms</h2>
 	<p>
 		A beginner-friendly manual for a Server Charm. A portable device that creates its own Wi-Fi
 		network and hosts a website for curious people around you! An everyday companion/portable
@@ -71,8 +71,8 @@
 	/>
 </section>
 
-<h2 id="wikipedia-helper">Obsidian Wikipedia Helper Plugin</h2>
 <section>
+	<h2 id="wikipedia-helper">Obsidian Wikipedia Helper Plugin</h2>
 	<p>
 		A plugin for the note taking app <Link href="https://obsidian.md/">Obsidian</Link> that uses the
 		<Link href="https://wikipedia.org">Wikipedia</Link>
@@ -99,8 +99,8 @@
 	/>
 </section>
 
-<h2 id="humane-software-license">The Humane Software License</h2>
 <section>
+	<h2 id="humane-software-license">The Humane Software License</h2>
 	<p>
 		A software license to change the world! All the code I write and publish is in some way or
 		another there to save the world. I was looking for a software license that encapsulates this
@@ -125,8 +125,8 @@
 	/>
 </section>
 
-<h2 id="fractals">Introduction to Fractals and Holomorphic Dynamics</h2>
 <section>
+	<h2 id="fractals">Introduction to Fractals and Holomorphic Dynamics</h2>
 	<p>
 		An article I wrote for my university course "Scientific Computing in Mathematica". It is an
 		introduction into fractal geometry and holomorphic dynamics being the mathematical foundation
@@ -157,8 +157,8 @@
 	/>
 </section>
 
-<h2 id="facial-landmark-detection">Facial Landmark Detection</h2>
 <section>
+	<h2 id="facial-landmark-detection">Facial Landmark Detection</h2>
 	<p>
 		A project on facial landmark detection on facecam input I did for my university course "Deep
 		Learning". Even though the article was written together with two others I did all the coding. I
@@ -187,8 +187,8 @@
 	/>
 </section>
 
-<h2 id="jambo">Jambo</h2>
 <section>
+	<h2 id="jambo">Jambo</h2>
 	<p>
 		A Discord bot to manage a whole game jam/hackathon server from a fully functional poll system to
 		managing color roles. I am the owner of a Discord server called Cowoding Jams where we host
@@ -206,8 +206,8 @@
 	/>
 </section>
 
-<h2 id="holeebike">HoleeBike</h2>
 <section>
+	<h2 id="holeebike">HoleeBike</h2>
 	<p>
 		A <Link href="https://flutter.dev/">Flutter</Link> app I developed as part of my school graduation
 		in 12th class. In Berlin we have this thing called "5. Prüfungskomponente" which is part of our A
