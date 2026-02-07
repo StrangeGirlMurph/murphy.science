@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Side Projects | Murphy</title>
-	<meta name="description" content="A few of the million side projects I am working on." />
+	<meta name="description" content="A few of my million tech related side projects." />
 </svelte:head>
 
 <div class="heading">
@@ -68,13 +68,14 @@
 <section>
 	<h2>OpenStreetMap</h2>
 	<p>
-		Since October 2025 I am <em>really</em> addicted to mapping for the
+		Since October 2025 I am kind of addicted to mapping for the
 		<Link href="https://www.openstreetmap.org/about">OpenStreetMap (OSM)</Link>. It's just soo much
-		fun. A video game that benifits the world really. It really tickles my brain in the right way. I
-		can highly recommed trying it yourself! Simply visit
+		fun. At a local OSM event I even found a mentor who I get to learn so much from. A video game
+		that benifits the world really. It really tickles my brain in the right way. Sadly it's not easy
+		to make time for it :( I can highly recommed trying it yourself! Simply visit
 		<Link href="https://www.openstreetmap.org/">openstreetmap.org</Link>, hit the big "Edit" button,
 		create an account and start mapping! The iD editor gives you a quick and easy introduction and
-		is very easy to use :) Sadly it's not easy to make time for it :(
+		is very easy to use :)
 	</p>
 	<Links
 		links={[
@@ -152,6 +153,25 @@
 			}
 		]}
 	/>
+</section>
+
+<section>
+	<h2>Spotify Organizer</h2>
+	<p>
+		One of my first coding projects. Definitely the first one with manual API requests and
+		non-trivial authentication. A python program/library using the <Link
+			href="https://developer.spotify.com/documentation/web-api">Spotify Web API</Link
+		> that collects all my data and generates playlists for artists or based on different metrics provided
+		by Spotify. I've been using Spotify for a long time and back then that was kind of the only way to
+		get a playlists for all liked songs from an artist to share with a friend, a playlist with all your
+		favorite songs over different time intervals or just fun statistics. Things that are now mostly covered
+		by Spotify Wrapped. Not all though! I've generated playlists with all my liked songs sorted by danceability
+		for example :) It was quite the fun project and so cool to see the results. The API was (maybe is)
+		very powerful. I've been meaning to get back to this and write a big cli tool in Rust that has even
+		more features and actually ends up in the distros repos for installation. With Spotify and it's leadership
+		being so shitty and becoming that evil over the years I now find myself rather looking for a good
+		alternative to ditch Spotify completely though.
+	</p>
 </section>
 
 <section>

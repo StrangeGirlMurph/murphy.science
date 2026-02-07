@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>Support Me | Murphy</title>
-	<meta name="description" content="Overview of my work." />
+	<meta name="description" content="Support my work financially." />
 </svelte:head>
 
 <div class="heading">
@@ -33,9 +33,9 @@
 				alt=""
 				class="w-5 h-5"
 			/></a
-		> give you the option to support my work financially and make my day with it. I don't have any major
-		expenses yet and currently have enough to live. So for now you would support my cake consumption
-		&gt;:) Either way have a wonderful day! &lt;3
+		> give you the opportunity to support my work financially and make my day with it. I don't have any
+		major expenses yet and currently have enough to live so for now you would only really support my
+		cake consumption &gt;:) Either way have a wonderful day! &lt;3
 	</p>
 </section>
 
