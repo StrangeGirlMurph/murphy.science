@@ -33,7 +33,7 @@
 			StrangeGirlMurph
 		</a>
 		<div class="text-xs alt-color">
-			Copyright © 2026 &nbsp;<span
+			Copyright © 2026&nbsp;<span
 				aria-hidden="true"
 				class="mr-0"
 				on:mouseenter={grow}
