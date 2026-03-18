@@ -8,17 +8,23 @@ export async function load() {
 }
 
 function scrambleAge(): string {
-	const birthdayStr = env.BIRTHDAY || '2003-01-01';
-
+	const birthdayStr = env.BIRTHDAY!;
 	const birthDate = new Date(birthdayStr);
 	const today = new Date();
-	const age = (today.getTime() - birthDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
+	
+	const middleOfTheYear = new Date("2003-07-01")
+	
+	const age = (today.getTime() - middleOfTheYear.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
 
-	// Max offset between 1/4 and 2 months 
-	const randomMaxOffset = (1/4)/12 + (Math.random() * 7/4) / 12;
-	// Random offset between -maxOffset and +maxOffset
-	const randomOffset = (Math.random() - 0.5) * 2 * randomMaxOffset;
-	const scrambledAge = age + randomOffset;
+	const baseUncertainty = 2/12 // My birthday is within +- 2 months of the middle of the year
 
-	return `${scrambledAge.toFixed(6)} ± ${randomMaxOffset.toFixed(6)} years`;
+	// Now its just scrambling for funsies to show changing decimal places. 
+	// The randomness can easily eliminated just by sampling.
+	const fiveDaysInYears = 5/365.25
+
+	const offset = (Math.random() - 0.5) * 2 * fiveDaysInYears // Scrambled by at most five days in both directions
+	const scrambledAge = age + offset; 
+	const uncertainty = baseUncertainty + Math.abs(offset)
+
+	return `${scrambledAge.toFixed(6)} ± ${uncertainty.toFixed(6)} years`;
 }
