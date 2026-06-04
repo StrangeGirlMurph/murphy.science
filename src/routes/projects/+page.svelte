@@ -1,6 +1,45 @@
 <script>
 	import Link from '../../components/Link.svelte';
 	import Links from '../../components/Links.svelte';
+
+	let contributions = [
+		{
+			name: `Meetable`,
+			href: `https://github.com/aaronpk/Meetable`
+		},
+		{
+			name: `nixpkgs`,
+			href: `https://github.com/NixOS/nixpkgs/`
+		},
+		{
+			name: `tootpick`,
+			href: `https://github.com/Juerd/tootpick`
+		},
+		{
+			name: `physica`,
+			href: `https://github.com/Leedehai/typst-physics`
+		},
+		{
+			name: `typst`,
+			href: `https://github.com/typst/typst`
+		},
+		{
+			name: `obsidian-latex-suite`,
+			href: `https://github.com/artisticat1/obsidian-latex-suite`
+		},
+		{
+			name: `archinstall`,
+			href: `https://github.com/archlinux/archinstall`
+		},
+		{
+			name: `Arch User Repository`,
+			href: `https://wiki.archlinux.org/title/Arch_User_Repository`
+		},
+		{
+			name: `enmap`,
+			href: `https://github.com/eslachance/enmap`
+		}
+	];
 </script>
 
 <svelte:head>
@@ -22,57 +61,10 @@
 			href="https://wikipedia.org">Wikipedia</Link
 		>
 		when I notice something is wrong. (Software) projects I contributed to (wrote code for) (the list
-		of issues is much longer):
+		of issues is much longer): {#each contributions as e, i}
+			<Link href={e.href}>{e.name}</Link>{i < contributions.length - 1 ? ', ' : ''}
+		{/each}
 	</p>
-	<Links
-		links={[
-			{
-				name: `Meetable`,
-				type: `github`,
-				href: `https://github.com/aaronpk/Meetable`
-			},
-			{
-				name: `nixpkgs`,
-				type: `github`,
-				href: `https://github.com/NixOS/nixpkgs/`
-			},
-			{
-				name: `tootpick.org`,
-				type: `github`,
-				href: `https://github.com/Juerd/tootpick`
-			},
-			{
-				name: `physica package for Typst`,
-				type: `github`,
-				href: `https://github.com/Leedehai/typst-physics`
-			},
-			{
-				name: `typst`,
-				type: `github`,
-				href: `https://github.com/typst/typst`
-			},
-			{
-				name: `obsidian-latex-suite`,
-				type: `github`,
-				href: `https://github.com/artisticat1/obsidian-latex-suite`
-			},
-			{
-				name: `archinstall`,
-				type: `github`,
-				href: `https://github.com/archlinux/archinstall`
-			},
-			{
-				name: `Arch User Repository (AUR)`,
-				type: `link`,
-				href: `https://wiki.archlinux.org/title/Arch_User_Repository`
-			},
-			{
-				name: `enmap`,
-				type: `github`,
-				href: `https://github.com/eslachance/enmap`
-			}
-		]}
-	/>
 </section>
 
 <section>
