@@ -27,37 +27,47 @@
 	<Links
 		links={[
 			{
-				name: `tootpick.org | Repository`,
+				name: `Meetable`,
+				type: `github`,
+				href: `https://github.com/aaronpk/Meetable`
+			},
+			{
+				name: `nixpkgs`,
+				type: `github`,
+				href: `https://github.com/NixOS/nixpkgs/`
+			},
+			{
+				name: `tootpick.org`,
 				type: `github`,
 				href: `https://github.com/Juerd/tootpick`
 			},
 			{
-				name: `physica package for Typst | Repository`,
+				name: `physica package for Typst`,
 				type: `github`,
 				href: `https://github.com/Leedehai/typst-physics`
 			},
 			{
-				name: `typst | Repository`,
+				name: `typst`,
 				type: `github`,
 				href: `https://github.com/typst/typst`
 			},
 			{
-				name: `obsidian-latex-suite | Repository`,
+				name: `obsidian-latex-suite`,
 				type: `github`,
 				href: `https://github.com/artisticat1/obsidian-latex-suite`
 			},
 			{
-				name: `archinstall | Repository`,
+				name: `archinstall`,
 				type: `github`,
 				href: `https://github.com/archlinux/archinstall`
 			},
 			{
-				name: `Arch User Repository | ArchWiki`,
+				name: `Arch User Repository (AUR)`,
 				type: `link`,
 				href: `https://wiki.archlinux.org/title/Arch_User_Repository`
 			},
 			{
-				name: `enmap | Repository`,
+				name: `enmap`,
 				type: `github`,
 				href: `https://github.com/eslachance/enmap`
 			}
