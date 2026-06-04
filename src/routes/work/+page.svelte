@@ -21,27 +21,66 @@
 			href="https://en.wikipedia.org/wiki/FLINTA*">FLINTA</Link
 		>
 		in science and tech, queer rights, accessibility, education for neglected minorities and basically
-		all those other typical left values. I encorporate these things into my work and also do quite a
-		bit of volunteering around them. The volunteering I do takes up a lot of time and I felt they deserved
-		a place here. Currently I am an active member at the FLINTA Hackspace
+		all those other typical left value based things. I encorporate these into my work and also do quite
+		a bit of volunteering around them. The volunteering I do takes up a lot of time and I felt they deserved
+		a place here. Currently I am an active member of the FLINTA Hackspace
 		<Link href="https://heartofcode.org">Heart of Code</Link>. At
 		<Link href="/aboutme#university">University</Link>
 		I am also a student representative and basically build up our subjects student association from the
-		ground up. I also take care of our finances. I try to make the bachelor more accessible to students
-		who aren't rich and come with tons of prior knowledge. I care about fairness. I also advocate for
-		others and the things I care about in many smaller ways that aren't easily trackable. Usually I am
-		the first to say yes to work that needs to get done for causes that I support.
+		ground up, used to take care of our finances and was part of committees. I try to make the bachelor
+		more accessible to students who aren't rich and come with tons of prior knowledge. I care about fairness.
+		I also advocate for others and the things I care about in many smaller ways that aren't easily trackable.
+		Usually I am the first to say yes to work that needs to get done for causes that I support.
 
 		<br /> <br />
-		Things I organized/took part in: the under 18 program team of the
+		Things I organized/took part in: a Linux Tinker+Install Party, the under 18 program team of the
 		<Link href="https://tincon.org">TINCON</Link> (a conference for digital youth culture), a day long
 		<Link href="https://github.com/StrangeGirlMurph/Coding-Seminar"
 			>intro to programming workshop</Link
 		>, a talk on FLINTA in science for a FLINTA meetup at my university, multiple about 4h long
-		workshops/presentations on transidentity and queerness, the two part Server Charm workshop (see
-		below), hosting many smaller meetings at Heart of Code and other things I currently can't
-		remember (will add them incrementally).
+		workshops/presentations on transidentity and queerness, the two part Server Charm workshop (<Link
+			href="#server-charms">see below</Link
+		>), hosting many smaller meetings at Heart of Code and other things I currently can't remember
+		(will add them incrementally).
 	</p>
+</section>
+
+<section>
+	<h2 id="pinpoint">Pinpoint</h2>
+	<p>
+		A free and open-source cross-platform mobile app written with <Link href="https://flutter.dev/"
+			>Flutter</Link
+		> to map things/points of interest. It lets you mark different locations on a map, add metadata to
+		each entry in the form of text, an image and a timestamps and organize the entries in different lists.
+		I developed this app in support of my long standing interest in the local graffiti art scene I developed
+		some time ago. I love spotting and collecting graffitis from different collectives in my everyday
+		life. I also love data and started remembering and mapping out all the different spots where I discovered
+		the graffitis of my favorite artists. But my head only has limited capacity. Thus came the idea for
+		a digital solution that would let me easily map locations of graffitis in multiple lists (each for
+		a given artist/collective) and add a picture and some other comments to each entry. Because I wasn't
+		happy with Google Earths capabilities and couldn't find a better alternative that met my specific
+		workflow requirements I took matter into my own hands. Beyond my use case I want this app to allow
+		everyone to easily collect things in their environment. Whether it's birds, art, nice park benches
+		or whatever! Sadly it won't reach everyone. In the beginning I intended to publish the app for iOS
+		and Android on the App and Play Store respectively. While trying to publish the app I sadly realized
+		that Apple entirely and Google in the Play Store won't let me do so without sending them a copy of
+		my ID. After a lot of back and fourth with their support I eventually gave up on iOS entirely and
+		on using the Play Store on Android. Now the app is only available on Android via the <Link
+			href="https://f-droid.org/en/">F-Droid store</Link
+		> and as a manual apk install. Sadly both of these are also under threat with Googles plans on locking
+		down Android more and more the following years. For more info on this see: <Link
+			href="https://keepandroidopen.org/">keepandroidopen.org</Link
+		>.
+	</p>
+	<Links
+		links={[
+			{
+				name: `Pinpoint | Repository`,
+				type: `github`,
+				href: `https://github.com/StrangeGirlMurph/Pinpoint`
+			}
+		]}
+	/>
 </section>
 
 <section>
